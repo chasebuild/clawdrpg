@@ -24,7 +24,7 @@ async function fetchAwesomeOpenClawSkills() {
   let match;
 
   while ((match = skillRegex.exec(text)) !== null) {
-    const [_, slug, url, description] = match;
+    const [, slug, url, description] = match;
 
     let rawReadmeUrl = url;
     if (url.includes('github.com')) {

@@ -4,11 +4,8 @@ import { useState, useEffect } from 'react';
 import { supabase } from '@/lib/supabase';
 import { useRouter } from 'next/navigation';
 import {
-  Sparkles,
   User,
-  FileText,
   Package,
-  Save,
   Plus,
   X,
   Wand2,
@@ -22,7 +19,7 @@ import {
   History,
 } from 'lucide-react';
 
-import { ARCHETYPES, SoulTemplate } from '@/lib/templates';
+import { ARCHETYPES } from '@/lib/templates';
 import ALL_SKILLS_DATA from '@/lib/skills.json';
 import { SkillInfo } from './SkillInfo';
 
@@ -186,7 +183,7 @@ ${formData.soul.continuity}
     }
   };
 
-  const updateSoul = (key: keyof typeof SOUL_TEMPLATE, value: any) => {
+  const updateSoul = (key: keyof typeof SOUL_TEMPLATE, value: string | string[]) => {
     setFormData((prev) => ({
       ...prev,
       soul: { ...prev.soul, [key]: value },
@@ -288,7 +285,7 @@ ${formData.soul.continuity}
             ].map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id as any)}
+                onClick={() => setActiveTab(tab.id)}
                 className={`w-full flex items-center justify-between px-5 py-4 rounded-sm transition-all border ${
                   activeTab === tab.id
                     ? 'border-accent bg-accent/5 text-accent shadow-[0_0_15px_rgba(0,242,255,0.05)]'

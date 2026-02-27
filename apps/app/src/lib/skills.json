@@ -22999,10 +22999,10 @@
     "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Clau...",
     "stats": {
       "comments": 31,
-      "downloads": 54376,
-      "installsAllTime": 496,
-      "installsCurrent": 478,
-      "stars": 563,
+      "downloads": 58620,
+      "installsAllTime": 545,
+      "installsCurrent": 524,
+      "stars": 627,
       "versions": 12
     },
     "source": "clawhub"
@@ -23014,11 +23014,11 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/tavily-search/readme",
     "description": "AI-optimized web search via Tavily API. Returns concise, relevant results for AI agents.",
     "stats": {
-      "comments": 19,
-      "downloads": 51249,
-      "installsAllTime": 367,
-      "installsCurrent": 359,
-      "stars": 184,
+      "comments": 21,
+      "downloads": 55569,
+      "installsAllTime": 419,
+      "installsCurrent": 410,
+      "stars": 217,
       "versions": 1
     },
     "source": "clawhub"
@@ -23031,10 +23031,10 @@
     "description": "Humanize AI-generated text to bypass detection. This humanizer rewrites ChatGPT, Claude, and GPT content to sound natural and pass AI detectors like GPTZero,...",
     "stats": {
       "comments": 5,
-      "downloads": 21231,
-      "installsAllTime": 56,
-      "installsCurrent": 55,
-      "stars": 71,
+      "downloads": 21791,
+      "installsAllTime": 64,
+      "installsCurrent": 63,
+      "stars": 79,
       "versions": 2
     },
     "source": "clawhub"
@@ -23047,7 +23047,7 @@
     "description": "Query Polymarket prediction markets - check odds, trending markets, search events, track prices and momentum. Includes watchlist alerts, resolution calendar,...",
     "stats": {
       "comments": 10,
-      "downloads": 20283,
+      "downloads": 20543,
       "installsAllTime": 7,
       "installsCurrent": 7,
       "stars": 48,
@@ -23063,10 +23063,10 @@
     "description": "Manage LNbits Lightning Wallet (Balance, Pay, Invoice)",
     "stats": {
       "comments": 1,
-      "downloads": 18680,
+      "downloads": 18756,
       "installsAllTime": 1,
       "installsCurrent": 1,
-      "stars": 1,
+      "stars": 2,
       "versions": 3
     },
     "source": "clawhub"
@@ -23079,42 +23079,10 @@
     "description": "YouTube Data API integration with managed OAuth. Search videos, manage playlists, access channel data, and interact with comments. Use this skill when users want to interact with YouTube. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 3,
-      "downloads": 17637,
-      "installsAllTime": 27,
-      "installsCurrent": 26,
-      "stars": 66,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "stripe-api",
-    "name": "Stripe",
-    "url": "https://clawhub.ai/skill/stripe-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stripe-api/readme",
-    "description": "Stripe API integration with managed OAuth. Manage customers, subscriptions, invoices, products, prices, and payments.\nUse this skill when users want to process payments, manage billing, or handle subscriptions with Stripe.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-    "stats": {
-      "comments": 2,
-      "downloads": 16429,
-      "installsAllTime": 7,
-      "installsCurrent": 7,
-      "stars": 16,
-      "versions": 9
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "outlook-api",
-    "name": "Outlook",
-    "url": "https://clawhub.ai/skill/outlook-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/outlook-api/readme",
-    "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 2,
-      "downloads": 16049,
-      "installsAllTime": 14,
-      "installsCurrent": 14,
-      "stars": 18,
+      "downloads": 18394,
+      "installsAllTime": 33,
+      "installsCurrent": 32,
+      "stars": 76,
       "versions": 4
     },
     "source": "clawhub"
@@ -23127,11 +23095,59 @@
     "description": "Analyze stocks and cryptocurrencies using Yahoo Finance data. Supports portfolio management, watchlists with alerts, dividend analysis, 8-dimension stock scoring, viral trend detection (Hot Scanner), and rumor/early signal detection. Use for stock analysis, portfolio tracking, earnings reactions, crypto monitoring, trending stocks, or finding rumors before they hit mainstream.",
     "stats": {
       "comments": 1,
-      "downloads": 15785,
-      "installsAllTime": 84,
-      "installsCurrent": 78,
-      "stars": 74,
+      "downloads": 16849,
+      "installsAllTime": 93,
+      "installsCurrent": 87,
+      "stars": 83,
       "versions": 10
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "stripe-api",
+    "name": "Stripe",
+    "url": "https://clawhub.ai/skill/stripe-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stripe-api/readme",
+    "description": "Stripe API integration with managed OAuth. Manage customers, subscriptions, invoices, products, prices, and payments.\nUse this skill when users want to process payments, manage billing, or handle subscriptions with Stripe.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 2,
+      "downloads": 16700,
+      "installsAllTime": 7,
+      "installsCurrent": 7,
+      "stars": 19,
+      "versions": 9
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "outlook-api",
+    "name": "Outlook",
+    "url": "https://clawhub.ai/skill/outlook-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/outlook-api/readme",
+    "description": "Microsoft Outlook API integration with managed OAuth. Read, send, and manage emails, folders, calendar events, and contacts via Microsoft Graph. Use this skill when users want to interact with Outlook. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 2,
+      "downloads": 16533,
+      "installsAllTime": 16,
+      "installsCurrent": 16,
+      "stars": 23,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "gmail",
+    "name": "Gmail",
+    "url": "https://clawhub.ai/skill/gmail",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gmail/readme",
+    "description": "Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 2,
+      "downloads": 16097,
+      "installsAllTime": 98,
+      "installsCurrent": 92,
+      "stars": 38,
+      "versions": 7
     },
     "source": "clawhub"
   },
@@ -23143,7 +23159,7 @@
     "description": "Shopify integration - currently under maintenance. Contact founders@maton.ai for assistance.",
     "stats": {
       "comments": 1,
-      "downloads": 15743,
+      "downloads": 15910,
       "installsAllTime": 6,
       "installsCurrent": 4,
       "stars": 2,
@@ -23159,11 +23175,27 @@
     "description": "Xero API integration with managed OAuth. Manage contacts, invoices, payments, accounts, and run financial reports. Use this skill when users want to interact with Xero accounting data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 15710,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
+      "downloads": 15906,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
       "stars": 8,
       "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "whatsapp-business",
+    "name": "WhatsApp Business",
+    "url": "https://clawhub.ai/skill/whatsapp-business",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/whatsapp-business/readme",
+    "description": "WhatsApp Business API integration with managed OAuth. Send messages, manage templates, and handle conversations. Use this skill when users want to interact with WhatsApp Business. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 3,
+      "downloads": 15776,
+      "installsAllTime": 16,
+      "installsCurrent": 16,
+      "stars": 32,
+      "versions": 4
     },
     "source": "clawhub"
   },
@@ -23175,7 +23207,7 @@
     "description": "Salesforce CRM API integration with managed OAuth. Query records with SOQL, manage sObjects (Contacts, Accounts, Leads, Opportunities), and perform batch operations. Use this skill when users want to interact with Salesforce data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 15603,
+      "downloads": 15763,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 5,
@@ -23191,27 +23223,11 @@
     "description": "Typeform API integration with managed OAuth. Create forms, manage responses, and access insights. Use this skill when users want to interact with Typeform surveys and responses. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 15573,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
+      "downloads": 15730,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
       "stars": 4,
       "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "whatsapp-business",
-    "name": "WhatsApp Business",
-    "url": "https://clawhub.ai/skill/whatsapp-business",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/whatsapp-business/readme",
-    "description": "WhatsApp Business API integration with managed OAuth. Send messages, manage templates, and handle conversations. Use this skill when users want to interact with WhatsApp Business. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 3,
-      "downloads": 15357,
-      "installsAllTime": 13,
-      "installsCurrent": 13,
-      "stars": 28,
-      "versions": 4
     },
     "source": "clawhub"
   },
@@ -23223,10 +23239,10 @@
     "description": "Google Slides API integration with managed OAuth. Create presentations, add slides, insert content, and manage slide formatting. Use this skill when users want to interact with Google Slides. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14871,
-      "installsAllTime": 19,
-      "installsCurrent": 19,
-      "stars": 24,
+      "downloads": 15150,
+      "installsAllTime": 23,
+      "installsCurrent": 23,
+      "stars": 26,
       "versions": 4
     },
     "source": "clawhub"
@@ -23239,10 +23255,10 @@
     "description": "Google Meet API integration with managed OAuth. Create meeting spaces, list conference records, and manage meeting participants. Use this skill when users want to interact with Google Meet. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14816,
-      "installsAllTime": 5,
-      "installsCurrent": 5,
-      "stars": 9,
+      "downloads": 15016,
+      "installsAllTime": 6,
+      "installsCurrent": 6,
+      "stars": 11,
       "versions": 4
     },
     "source": "clawhub"
@@ -23255,7 +23271,7 @@
     "description": "ClickUp API integration with managed OAuth. Access tasks, lists, folders, spaces, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with ClickUp workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14798,
+      "downloads": 15016,
       "installsAllTime": 2,
       "installsCurrent": 2,
       "stars": 7,
@@ -23271,27 +23287,11 @@
     "description": "Calendly API integration with managed OAuth. Access event types, scheduled events, invitees, availability, and manage webhooks. Use this skill when users want to view scheduling data, check availability, book meetings, or integrate with Calendly workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 3,
-      "downloads": 14710,
-      "installsAllTime": 3,
-      "installsCurrent": 3,
+      "downloads": 14902,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
       "stars": 7,
       "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "gmail",
-    "name": "Gmail",
-    "url": "https://clawhub.ai/skill/gmail",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gmail/readme",
-    "description": "Gmail API integration with managed OAuth. Read, send, and manage emails, threads, labels, and drafts. Use this skill when users want to interact with Gmail. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 2,
-      "downloads": 14695,
-      "installsAllTime": 78,
-      "installsCurrent": 73,
-      "stars": 32,
-      "versions": 7
     },
     "source": "clawhub"
   },
@@ -23303,7 +23303,7 @@
     "description": "Asana API integration with managed OAuth. Access tasks, projects, workspaces, users, and manage webhooks. Use this skill when users want to manage work items, track projects, or integrate with Asana workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14591,
+      "downloads": 14731,
       "installsAllTime": 2,
       "installsCurrent": 2,
       "stars": 4,
@@ -23319,10 +23319,10 @@
     "description": "Fathom API integration with managed OAuth. Access meeting recordings, transcripts, summaries, and manage webhooks. Use this skill when users want to retrieve meeting content, search recordings, or set up webhook notifications for new meetings. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14520,
+      "downloads": 14655,
       "installsAllTime": 2,
       "installsCurrent": 2,
-      "stars": 6,
+      "stars": 7,
       "versions": 6
     },
     "source": "clawhub"
@@ -23335,9 +23335,9 @@
     "description": "Trello API integration with managed OAuth. Manage boards, lists, cards, members, and labels. Use this skill when users want to interact with Trello for project management. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14367,
-      "installsAllTime": 8,
-      "installsCurrent": 8,
+      "downloads": 14554,
+      "installsAllTime": 10,
+      "installsCurrent": 10,
       "stars": 4,
       "versions": 4
     },
@@ -23351,10 +23351,10 @@
     "description": "Google Workspace Admin SDK integration with managed OAuth. Manage users, groups, organizational units, and domain settings. Use this skill when users want to administer Google Workspace. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14337,
+      "downloads": 14518,
       "installsAllTime": 4,
       "installsCurrent": 4,
-      "stars": 12,
+      "stars": 13,
       "versions": 5
     },
     "source": "clawhub"
@@ -23367,9 +23367,9 @@
     "description": "Pipedrive API integration with managed OAuth. Manage deals, persons, organizations, activities, and pipelines. Use this skill when users want to interact with Pipedrive CRM. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 14070,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
+      "downloads": 14189,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
       "stars": 4,
       "versions": 4
     },
@@ -23383,10 +23383,10 @@
     "description": "Mailchimp Marketing API integration with managed OAuth. Access audiences, campaigns, templates, automations, reports, and manage subscribers. Use this skill when users want to manage email marketing, subscriber lists, or automate email campaigns. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 13793,
+      "downloads": 13940,
       "installsAllTime": 2,
       "installsCurrent": 2,
-      "stars": 6,
+      "stars": 7,
       "versions": 4
     },
     "source": "clawhub"
@@ -23399,9 +23399,9 @@
     "description": "Google Play Developer API (Android Publisher) integration with managed OAuth. Manage apps, subscriptions, in-app purchases, and reviews. Use this skill when users want to interact with Google Play Console programmatically. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 13671,
-      "installsAllTime": 3,
-      "installsCurrent": 3,
+      "downloads": 13806,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
       "stars": 8,
       "versions": 4
     },
@@ -23415,7 +23415,7 @@
     "description": "Klaviyo API integration with managed OAuth. Access profiles, lists, segments, campaigns, flows, events, metrics, templates, catalogs, and webhooks. Use this skill when users want to manage email marketing, customer data, or integrate with Klaviyo workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 1,
-      "downloads": 13655,
+      "downloads": 13765,
       "installsAllTime": 4,
       "installsCurrent": 4,
       "stars": 2,
@@ -23430,11 +23430,11 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stock-market-pro/readme",
     "description": "Yahoo Finance (yfinance) powered stock analysis skill: quotes, fundamentals, ASCII trends, high-resolution charts (RSI/MACD/BB/VWAP/ATR), plus optional web a...",
     "stats": {
-      "comments": 8,
-      "downloads": 11932,
-      "installsAllTime": 51,
-      "installsCurrent": 50,
-      "stars": 53,
+      "comments": 9,
+      "downloads": 12589,
+      "installsAllTime": 58,
+      "installsCurrent": 57,
+      "stars": 61,
       "versions": 4
     },
     "source": "clawhub"
@@ -23447,10 +23447,10 @@
     "description": "GitHub API integration with managed OAuth. Access repositories, issues, pull requests, commits, branches, and users.\nUse this skill when users want to interact with GitHub repositories, manage issues and PRs, search code, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 11766,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
-      "stars": 25,
+      "downloads": 11976,
+      "installsAllTime": 15,
+      "installsCurrent": 15,
+      "stars": 28,
       "versions": 4
     },
     "source": "clawhub"
@@ -23462,8 +23462,8 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/woocommerce/readme",
     "description": "WooCommerce REST API integration with managed OAuth. Access products, orders, customers, coupons, shipping, taxes, reports, and webhooks. Use this skill when users want to manage e-commerce operations, process orders, or integrate with WooCommerce stores. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
-      "comments": 3,
-      "downloads": 11432,
+      "comments": 4,
+      "downloads": 11633,
       "installsAllTime": 2,
       "installsCurrent": 2,
       "stars": 11,
@@ -23479,27 +23479,11 @@
     "description": "Monday.com API integration with managed OAuth. Manage boards, items, columns, groups, and workspaces using GraphQL.\nUse this skill when users want to create, update, or query Monday.com boards and items, manage tasks, or automate workflows.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 1,
-      "downloads": 11224,
-      "installsAllTime": 6,
-      "installsCurrent": 6,
+      "downloads": 11443,
+      "installsAllTime": 8,
+      "installsCurrent": 8,
       "stars": 4,
       "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "zoho-mail",
-    "name": "Zoho Mail",
-    "url": "https://clawhub.ai/skill/zoho-mail",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-mail/readme",
-    "description": "Zoho Mail API integration with managed OAuth. Send, receive, and manage emails, folders, and labels.\nUse this skill when users want to send emails, read messages, manage folders, or work with email labels in Zoho Mail.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-    "stats": {
-      "comments": 2,
-      "downloads": 11028,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 2,
-      "versions": 5
     },
     "source": "clawhub"
   },
@@ -23511,10 +23495,26 @@
     "description": "Zoho CRM API integration with managed OAuth. Manage leads, contacts, accounts, deals, and other CRM records. Use this skill when users want to read, create,...",
     "stats": {
       "comments": 2,
-      "downloads": 11023,
+      "downloads": 11199,
       "installsAllTime": 2,
       "installsCurrent": 2,
       "stars": 4,
+      "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "zoho-mail",
+    "name": "Zoho Mail",
+    "url": "https://clawhub.ai/skill/zoho-mail",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-mail/readme",
+    "description": "Zoho Mail API integration with managed OAuth. Send, receive, and manage emails, folders, and labels.\nUse this skill when users want to send emails, read messages, manage folders, or work with email labels in Zoho Mail.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 2,
+      "downloads": 11173,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 2,
       "versions": 5
     },
     "source": "clawhub"
@@ -23527,11 +23527,43 @@
     "description": "Linear API integration with managed OAuth. Query and manage issues, projects, teams, cycles, and labels using GraphQL.\nUse this skill when users want to create, update, or query Linear issues, search for tasks, manage projects, or track work.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 2,
-      "downloads": 10996,
+      "downloads": 11168,
       "installsAllTime": 0,
       "installsCurrent": 0,
-      "stars": 10,
+      "stars": 13,
       "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "browser-automation",
+    "name": "Browser Automation",
+    "url": "https://clawhub.ai/skill/browser-automation",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/browser-automation/readme",
+    "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications.",
+    "stats": {
+      "comments": 3,
+      "downloads": 10924,
+      "installsAllTime": 78,
+      "installsCurrent": 73,
+      "stars": 13,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "web-search",
+    "name": "Web Search",
+    "url": "https://clawhub.ai/skill/web-search",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/web-search/readme",
+    "description": "This skill should be used when users need to search the web for information, find current content, look up news articles, search for images, or find videos. It uses DuckDuckGo's search API to return results in clean, formatted output (text, markdown, or JSON). Use for research, fact-checking, finding recent information, or gathering web resources.",
+    "stats": {
+      "comments": 1,
+      "downloads": 10901,
+      "installsAllTime": 114,
+      "installsCurrent": 108,
+      "stars": 14,
+      "versions": 1
     },
     "source": "clawhub"
   },
@@ -23543,7 +23575,23 @@
     "description": "Zoho Calendar API integration with managed OAuth. Manage calendars and events with full scheduling capabilities.\nUse this skill when users want to read, create, update, or delete calendar events, manage calendars, or schedule meetings.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 2,
-      "downloads": 10744,
+      "downloads": 10861,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 2,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "zoho-inventory",
+    "name": "Zoho Inventory",
+    "url": "https://clawhub.ai/skill/zoho-inventory",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-inventory/readme",
+    "description": "Zoho Inventory API integration with managed OAuth. Manage items, sales orders, invoices, purchase orders, bills, contacts, and shipments.\nUse this skill when users want to read, create, update, or delete inventory items, sales orders, invoices, purchase orders, bills, or other inventory records in Zoho Inventory.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 2,
+      "downloads": 10854,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
@@ -23559,27 +23607,11 @@
     "description": "Attio API integration with managed OAuth. Manage CRM data including people, companies, and custom objects. Use this skill when users want to create, read, up...",
     "stats": {
       "comments": 2,
-      "downloads": 10741,
+      "downloads": 10848,
       "installsAllTime": 2,
       "installsCurrent": 2,
       "stars": 2,
       "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "zoho-inventory",
-    "name": "Zoho Inventory",
-    "url": "https://clawhub.ai/skill/zoho-inventory",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-inventory/readme",
-    "description": "Zoho Inventory API integration with managed OAuth. Manage items, sales orders, invoices, purchase orders, bills, contacts, and shipments.\nUse this skill when users want to read, create, update, or delete inventory items, sales orders, invoices, purchase orders, bills, or other inventory records in Zoho Inventory.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-    "stats": {
-      "comments": 2,
-      "downloads": 10737,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 2,
-      "versions": 4
     },
     "source": "clawhub"
   },
@@ -23591,7 +23623,7 @@
     "description": "Zoho Bigin API integration with managed OAuth. Manage contacts, companies, pipelines, and products in Bigin CRM.\nUse this skill when users want to read, create, update, or delete CRM records, search contacts, or manage sales pipelines.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 2,
-      "downloads": 10715,
+      "downloads": 10825,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
@@ -23607,7 +23639,7 @@
     "description": "Zoho Recruit API integration with managed OAuth. Manage candidates, job openings, interviews, and recruitment workflows.\nUse this skill when users want to read, create, update, or search recruitment data like candidates, job openings, interviews, and applications in Zoho Recruit.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 2,
-      "downloads": 10686,
+      "downloads": 10798,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
@@ -23623,27 +23655,11 @@
     "description": "Zoho People API integration with managed OAuth. Manage employees, departments, designations, attendance, and leave.\nUse this skill when users want to read, create, update, or query HR data like employees, departments, designations, and forms in Zoho People.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 2,
-      "downloads": 10634,
+      "downloads": 10738,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
       "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "agent-browser-clawdbot",
-    "name": "Agent Browser",
-    "url": "https://clawhub.ai/skill/agent-browser-clawdbot",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-clawdbot/readme",
-    "description": "Headless browser automation CLI optimized for AI agents with accessibility tree snapshots and ref-based element selection",
-    "stats": {
-      "comments": 1,
-      "downloads": 10348,
-      "installsAllTime": 76,
-      "installsCurrent": 70,
-      "stars": 9,
-      "versions": 1
     },
     "source": "clawhub"
   },
@@ -23655,43 +23671,27 @@
     "description": "Get stock prices, quotes, fundamentals, earnings, options, dividends, and analyst ratings using Yahoo Finance. Uses yfinance library - no API key required.",
     "stats": {
       "comments": 3,
-      "downloads": 10242,
-      "installsAllTime": 58,
-      "installsCurrent": 54,
+      "downloads": 10683,
+      "installsAllTime": 64,
+      "installsCurrent": 60,
       "stars": 22,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "web-search",
-    "name": "Web Search",
-    "url": "https://clawhub.ai/skill/web-search",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/web-search/readme",
-    "description": "This skill should be used when users need to search the web for information, find current content, look up news articles, search for images, or find videos. It uses DuckDuckGo's search API to return results in clean, formatted output (text, markdown, or JSON). Use for research, fact-checking, finding recent information, or gathering web resources.",
+    "slug": "agent-browser-clawdbot",
+    "name": "Agent Browser",
+    "url": "https://clawhub.ai/skill/agent-browser-clawdbot",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-clawdbot/readme",
+    "description": "Headless browser automation CLI optimized for AI agents with accessibility tree snapshots and ref-based element selection",
     "stats": {
       "comments": 1,
-      "downloads": 10150,
-      "installsAllTime": 95,
-      "installsCurrent": 90,
-      "stars": 14,
+      "downloads": 10639,
+      "installsAllTime": 82,
+      "installsCurrent": 74,
+      "stars": 9,
       "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "browser-automation",
-    "name": "Browser Automation",
-    "url": "https://clawhub.ai/skill/browser-automation",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/browser-automation/readme",
-    "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications.",
-    "stats": {
-      "comments": 3,
-      "downloads": 10097,
-      "installsAllTime": 70,
-      "installsCurrent": 66,
-      "stars": 12,
-      "versions": 2
     },
     "source": "clawhub"
   },
@@ -23703,26 +23703,26 @@
     "description": "Microsoft Excel API integration with managed OAuth. Read and write Excel workbooks, worksheets, ranges, tables, and charts stored in OneDrive.\nUse this skill when users want to read or modify Excel spreadsheets, manage worksheet data, work with tables, or access cell values.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 2,
-      "downloads": 9286,
-      "installsAllTime": 18,
-      "installsCurrent": 18,
+      "downloads": 9875,
+      "installsAllTime": 21,
+      "installsCurrent": 21,
       "stars": 20,
       "versions": 4
     },
     "source": "clawhub"
   },
   {
-    "slug": "guicountrol",
-    "name": "Linux GUI  Control",
-    "url": "https://clawhub.ai/skill/guicountrol",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/guicountrol/readme",
-    "description": "Control the Linux desktop GUI using xdotool, wmctrl, and dogtail. Use when you need to interact with non-browser applications, simulate mouse/keyboard input, manage windows, or inspect the UI hierarchy of applications on X11/GNOME. Supports: (1) Clicking/typing in apps, (2) Resizing/moving windows, (3) Extracting text-based UI trees from apps (A11y), (4) Taking screenshots for visual analysis.",
+    "slug": "markdown-convert",
+    "name": "Markdown.new Skill",
+    "url": "https://clawhub.ai/skill/markdown-convert",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/markdown-convert/readme",
+    "description": "Convert public web pages into clean Markdown with markdown.new for AI workflows. Use when tasks require URL-to-Markdown conversion for summarization, RAG ing...",
     "stats": {
-      "comments": 0,
-      "downloads": 8240,
-      "installsAllTime": 8,
-      "installsCurrent": 8,
-      "stars": 5,
+      "comments": 4,
+      "downloads": 8616,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 17,
       "versions": 1
     },
     "source": "clawhub"
@@ -23735,26 +23735,58 @@
     "description": "Search the web with AI-powered answers via Perplexity API. Returns grounded responses with citations. Supports batch queries.",
     "stats": {
       "comments": 0,
-      "downloads": 8025,
-      "installsAllTime": 65,
-      "installsCurrent": 61,
+      "downloads": 8356,
+      "installsAllTime": 71,
+      "installsCurrent": 67,
+      "stars": 18,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "guicountrol",
+    "name": "Linux GUI  Control",
+    "url": "https://clawhub.ai/skill/guicountrol",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/guicountrol/readme",
+    "description": "Control the Linux desktop GUI using xdotool, wmctrl, and dogtail. Use when you need to interact with non-browser applications, simulate mouse/keyboard input, manage windows, or inspect the UI hierarchy of applications on X11/GNOME. Supports: (1) Clicking/typing in apps, (2) Resizing/moving windows, (3) Extracting text-based UI trees from apps (A11y), (4) Taking screenshots for visual analysis.",
+    "stats": {
+      "comments": 0,
+      "downloads": 8352,
+      "installsAllTime": 9,
+      "installsCurrent": 9,
+      "stars": 5,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "playwright-mcp",
+    "name": "Playwright MCP",
+    "url": "https://clawhub.ai/skill/playwright-mcp",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/playwright-mcp/readme",
+    "description": "Browser automation via Playwright MCP server. Navigate websites, click elements, fill forms, extract data, take screenshots, and perform full browser automation workflows.",
+    "stats": {
+      "comments": 2,
+      "downloads": 8326,
+      "installsAllTime": 91,
+      "installsCurrent": 86,
       "stars": 19,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "markdown-convert",
-    "name": "Markdown.new Skill",
-    "url": "https://clawhub.ai/skill/markdown-convert",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/markdown-convert/readme",
-    "description": "Convert public web pages into clean Markdown with markdown.new for AI workflows. Use when tasks require URL-to-Markdown conversion for summarization, RAG ing...",
+    "slug": "playwright-scraper-skill",
+    "name": "Playwright Scraper Skill",
+    "url": "https://clawhub.ai/skill/playwright-scraper-skill",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/playwright-scraper-skill/readme",
+    "description": "Playwright-based web scraping OpenClaw Skill with anti-bot protection. Successfully tested on complex sites like Discuss.com.hk.",
     "stats": {
-      "comments": 3,
-      "downloads": 7800,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 16,
+      "comments": 0,
+      "downloads": 8261,
+      "installsAllTime": 64,
+      "installsCurrent": 64,
+      "stars": 11,
       "versions": 1
     },
     "source": "clawhub"
@@ -23767,10 +23799,10 @@
     "description": "Enable and configure Moltbot/Clawdbot memory search for persistent context. Use when setting up memory, fixing \"goldfish brain,\" or helping users configure memorySearch in their config. Covers MEMORY.md, daily logs, and vector search setup.",
     "stats": {
       "comments": 3,
-      "downloads": 7728,
-      "installsAllTime": 75,
-      "installsCurrent": 75,
-      "stars": 48,
+      "downloads": 8157,
+      "installsAllTime": 84,
+      "installsCurrent": 84,
+      "stars": 51,
       "versions": 1
     },
     "source": "clawhub"
@@ -23783,75 +23815,11 @@
     "description": "Google Drive API integration with managed OAuth. List, search, create, and manage files and folders. Use this skill when users want to interact with Google D...",
     "stats": {
       "comments": 0,
-      "downloads": 7275,
-      "installsAllTime": 17,
-      "installsCurrent": 17,
+      "downloads": 7830,
+      "installsAllTime": 19,
+      "installsCurrent": 19,
       "stars": 18,
       "versions": 7
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "playwright-scraper-skill",
-    "name": "Playwright Scraper Skill",
-    "url": "https://clawhub.ai/skill/playwright-scraper-skill",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/playwright-scraper-skill/readme",
-    "description": "Playwright-based web scraping OpenClaw Skill with anti-bot protection. Successfully tested on complex sites like Discuss.com.hk.",
-    "stats": {
-      "comments": 0,
-      "downloads": 7269,
-      "installsAllTime": 54,
-      "installsCurrent": 54,
-      "stars": 9,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-workspace-mcp",
-    "name": "Google Workspace (No Cloud Console)",
-    "url": "https://clawhub.ai/skill/google-workspace-mcp",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-workspace-mcp/readme",
-    "description": "Gmail, Calendar, Drive, Docs, Sheets — NO Google Cloud Console required. Just OAuth sign-in. Zero setup complexity vs traditional Google API integrations.",
-    "stats": {
-      "comments": 4,
-      "downloads": 6951,
-      "installsAllTime": 45,
-      "installsCurrent": 44,
-      "stars": 38,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-sheets",
-    "name": "Google Sheets",
-    "url": "https://clawhub.ai/skill/google-sheets",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-sheets/readme",
-    "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when users want to read from or write to Google Sheets. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 6931,
-      "installsAllTime": 13,
-      "installsCurrent": 12,
-      "stars": 5,
-      "versions": 7
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "playwright-mcp",
-    "name": "Playwright MCP",
-    "url": "https://clawhub.ai/skill/playwright-mcp",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/playwright-mcp/readme",
-    "description": "Browser automation via Playwright MCP server. Navigate websites, click elements, fill forms, extract data, take screenshots, and perform full browser automation workflows.",
-    "stats": {
-      "comments": 1,
-      "downloads": 6843,
-      "installsAllTime": 71,
-      "installsCurrent": 68,
-      "stars": 18,
-      "versions": 1
     },
     "source": "clawhub"
   },
@@ -23863,11 +23831,27 @@
     "description": "Google Calendar via gcalcli: today-only agenda by default, bounded meaning-first lookup via agenda scans, and fast create/delete with verification--optimized for low tool calls and minimal output.",
     "stats": {
       "comments": 0,
-      "downloads": 6771,
-      "installsAllTime": 35,
-      "installsCurrent": 33,
+      "downloads": 7583,
+      "installsAllTime": 40,
+      "installsCurrent": 38,
       "stars": 3,
       "versions": 11
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-sheets",
+    "name": "Google Sheets",
+    "url": "https://clawhub.ai/skill/google-sheets",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-sheets/readme",
+    "description": "Google Sheets API integration with managed OAuth. Read and write spreadsheet data, create sheets, apply formatting, and manage ranges. Use this skill when users want to read from or write to Google Sheets. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 7410,
+      "installsAllTime": 13,
+      "installsCurrent": 12,
+      "stars": 6,
+      "versions": 7
     },
     "source": "clawhub"
   },
@@ -23878,75 +23862,27 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ai-ppt-generator/readme",
     "description": "The awesome PPT format generation tool provided by baidu.",
     "stats": {
-      "comments": 1,
-      "downloads": 6679,
-      "installsAllTime": 22,
-      "installsCurrent": 22,
+      "comments": 2,
+      "downloads": 7307,
+      "installsAllTime": 25,
+      "installsCurrent": 25,
       "stars": 6,
       "versions": 11
     },
     "source": "clawhub"
   },
   {
-    "slug": "todoist-api",
-    "name": "Todoist",
-    "url": "https://clawhub.ai/skill/todoist-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/todoist-api/readme",
-    "description": "Todoist API integration with managed OAuth. Manage tasks, projects, sections, labels, and comments. Use this skill when users want to create, update, complet...",
+    "slug": "google-workspace-mcp",
+    "name": "Google Workspace (No Cloud Console)",
+    "url": "https://clawhub.ai/skill/google-workspace-mcp",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-workspace-mcp/readme",
+    "description": "Gmail, Calendar, Drive, Docs, Sheets — NO Google Cloud Console required. Just OAuth sign-in. Zero setup complexity vs traditional Google API integrations.",
     "stats": {
-      "comments": 0,
-      "downloads": 6652,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 8,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-calendar-api",
-    "name": "Google Calendar",
-    "url": "https://clawhub.ai/skill/google-calendar-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-calendar-api/readme",
-    "description": "Google Calendar API integration with managed OAuth. Create events, list calendars, check availability, and manage schedules. Use this skill when users want to interact with Google Calendar. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 6285,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 17,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "telegram",
-    "name": "Telegram",
-    "url": "https://clawhub.ai/skill/telegram",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/telegram/readme",
-    "description": "OpenClaw skill for designing Telegram Bot API workflows and command-driven conversations using direct HTTPS requests (no SDKs).",
-    "stats": {
-      "comments": 0,
-      "downloads": 6233,
-      "installsAllTime": 63,
-      "installsCurrent": 63,
-      "stars": 7,
-      "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "frontend-design-ultimate",
-    "name": "Frontend Design Ultimate",
-    "url": "https://clawhub.ai/skill/frontend-design-ultimate",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/frontend-design-ultimate/readme",
-    "description": "Create distinctive, production-grade static sites with React, Tailwind CSS, and shadcn/ui — no mockups needed. Generates bold, memorable designs from plain text requirements with anti-AI-slop aesthetics, mobile-first responsive patterns, and single-file bundling. Use when building landing pages, marketing sites, portfolios, dashboards, or any static web UI. Supports both Vite (pure static) and Next.js (Vercel deploy) workflows.",
-    "stats": {
-      "comments": 0,
-      "downloads": 6149,
-      "installsAllTime": 24,
-      "installsCurrent": 24,
-      "stars": 23,
+      "comments": 4,
+      "downloads": 7235,
+      "installsAllTime": 48,
+      "installsCurrent": 46,
+      "stars": 39,
       "versions": 1
     },
     "source": "clawhub"
@@ -23959,11 +23895,75 @@
     "description": "Multi-source deep research agent. Searches the web, synthesizes findings, and delivers cited reports. No API keys required.",
     "stats": {
       "comments": 0,
-      "downloads": 6148,
-      "installsAllTime": 28,
-      "installsCurrent": 28,
-      "stars": 4,
+      "downloads": 6851,
+      "installsAllTime": 34,
+      "installsCurrent": 34,
+      "stars": 7,
       "versions": 3
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "todoist-api",
+    "name": "Todoist",
+    "url": "https://clawhub.ai/skill/todoist-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/todoist-api/readme",
+    "description": "Todoist API integration with managed OAuth. Manage tasks, projects, sections, labels, and comments. Use this skill when users want to create, update, complet...",
+    "stats": {
+      "comments": 0,
+      "downloads": 6830,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 9,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "telegram",
+    "name": "Telegram",
+    "url": "https://clawhub.ai/skill/telegram",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/telegram/readme",
+    "description": "OpenClaw skill for designing Telegram Bot API workflows and command-driven conversations using direct HTTPS requests (no SDKs).",
+    "stats": {
+      "comments": 0,
+      "downloads": 6739,
+      "installsAllTime": 70,
+      "installsCurrent": 70,
+      "stars": 8,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "frontend-design-ultimate",
+    "name": "Frontend Design Ultimate",
+    "url": "https://clawhub.ai/skill/frontend-design-ultimate",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/frontend-design-ultimate/readme",
+    "description": "Create distinctive, production-grade static sites with React, Tailwind CSS, and shadcn/ui — no mockups needed. Generates bold, memorable designs from plain text requirements with anti-AI-slop aesthetics, mobile-first responsive patterns, and single-file bundling. Use when building landing pages, marketing sites, portfolios, dashboards, or any static web UI. Supports both Vite (pure static) and Next.js (Vercel deploy) workflows.",
+    "stats": {
+      "comments": 0,
+      "downloads": 6709,
+      "installsAllTime": 30,
+      "installsCurrent": 30,
+      "stars": 26,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-calendar-api",
+    "name": "Google Calendar",
+    "url": "https://clawhub.ai/skill/google-calendar-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-calendar-api/readme",
+    "description": "Google Calendar API integration with managed OAuth. Create events, list calendars, check availability, and manage schedules. Use this skill when users want to interact with Google Calendar. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 6694,
+      "installsAllTime": 3,
+      "installsCurrent": 3,
+      "stars": 17,
+      "versions": 6
     },
     "source": "clawhub"
   },
@@ -23975,10 +23975,10 @@
     "description": "Captures learnings, errors, and corrections to enable continuous improvement. Use when: (1) A command or operation fails unexpectedly, (2) User corrects Claude ('No, that's wrong...', 'Actually...'), (3) User requests a capability that doesn't exist, (4) An external API or tool fails, (5) Claude realizes its knowledge is outdated or incorrect, (6) A better approach is discovered for a recurring task. Also review learnings before major tasks.",
     "stats": {
       "comments": 0,
-      "downloads": 6090,
-      "installsAllTime": 38,
-      "installsCurrent": 37,
-      "stars": 14,
+      "downloads": 6687,
+      "installsAllTime": 44,
+      "installsCurrent": 43,
+      "stars": 16,
       "versions": 1
     },
     "source": "clawhub"
@@ -23991,9 +23991,9 @@
     "description": "LinkedIn API integration with managed OAuth. Share posts, manage profile, run ads, and access LinkedIn features. Use this skill when users want to share cont...",
     "stats": {
       "comments": 0,
-      "downloads": 6005,
-      "installsAllTime": 7,
-      "installsCurrent": 7,
+      "downloads": 6314,
+      "installsAllTime": 10,
+      "installsCurrent": 10,
       "stars": 22,
       "versions": 4
     },
@@ -24007,9 +24007,9 @@
     "description": "Notion API integration with managed OAuth. Query databases, create and update pages, manage blocks. Use this skill when users want to interact with Notion workspaces, databases, or pages. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 5916,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
+      "downloads": 6162,
+      "installsAllTime": 3,
+      "installsCurrent": 3,
       "stars": 4,
       "versions": 6
     },
@@ -24023,7 +24023,7 @@
     "description": "Kit (formerly ConvertKit) API integration with managed OAuth. Manage email subscribers, forms, tags, sequences, broadcasts, and custom fields.\nUse this skill when users want to manage their email marketing lists, create or update subscribers, manage tags, or work with email sequences and broadcasts.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 5909,
+      "downloads": 5964,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 4,
@@ -24039,9 +24039,9 @@
     "description": "Airtable API integration with managed OAuth. Manage bases, tables, and records. Use this skill when users want to read, create, update, or delete Airtable records, or query data with filter formulas. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 5662,
-      "installsAllTime": 5,
-      "installsCurrent": 5,
+      "downloads": 5815,
+      "installsAllTime": 6,
+      "installsCurrent": 6,
       "stars": 12,
       "versions": 7
     },
@@ -24054,11 +24054,11 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/tesla-api/readme",
     "description": "Control your Tesla vehicles - lock/unlock, climate, location, charge status, and more. Supports multiple vehicles.",
     "stats": {
-      "comments": 8,
-      "downloads": 5478,
+      "comments": 9,
+      "downloads": 5734,
       "installsAllTime": 0,
       "installsCurrent": 0,
-      "stars": 13,
+      "stars": 14,
       "versions": 2
     },
     "source": "clawhub"
@@ -24071,27 +24071,11 @@
     "description": "Track stocks, ETFs, indices, crypto (where available), and FX pairs with caching + provider fallbacks.",
     "stats": {
       "comments": 0,
-      "downloads": 5108,
-      "installsAllTime": 11,
-      "installsCurrent": 10,
-      "stars": 9,
+      "downloads": 5554,
+      "installsAllTime": 14,
+      "installsCurrent": 13,
+      "stars": 10,
       "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-analytics",
-    "name": "Google Analytics",
-    "url": "https://clawhub.ai/skill/google-analytics",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-analytics/readme",
-    "description": "Google Analytics API integration with managed OAuth. Manage accounts, properties, and data streams (Admin API). Run reports on sessions, users, page views, and conversions (Data API). Use this skill when users want to configure or query Google Analytics. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 5097,
-      "installsAllTime": 6,
-      "installsCurrent": 6,
-      "stars": 11,
-      "versions": 8
     },
     "source": "clawhub"
   },
@@ -24103,59 +24087,43 @@
     "description": "The best prediction market interface for AI agents. Trade on Polymarket and Kalshi, all through one API, with self-custody wallets, safety rails, and smart c...",
     "stats": {
       "comments": 0,
-      "downloads": 5050,
+      "downloads": 5430,
       "installsAllTime": 11,
       "installsCurrent": 11,
-      "stars": 12,
+      "stars": 13,
       "versions": 36
     },
     "source": "clawhub"
   },
   {
-    "slug": "google-tasks-api",
-    "name": "Google Tasks",
-    "url": "https://clawhub.ai/skill/google-tasks-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-tasks-api/readme",
-    "description": "Google Tasks API integration with managed OAuth. Manage task lists and tasks with full CRUD operations.\nUse this skill when users want to read, create, update, or delete tasks and task lists in Google Tasks.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 1,
-      "downloads": 4995,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 7,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "crypto-price",
-    "name": "Crypto Price",
-    "url": "https://clawhub.ai/skill/crypto-price",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/crypto-price/readme",
-    "description": "Get cryptocurrency token price and generate candlestick charts via CoinGecko API or Hyperliquid API. Use when user asks for token price, crypto price, price chart, or cryptocurrency market data.",
+    "slug": "google-analytics",
+    "name": "Google Analytics",
+    "url": "https://clawhub.ai/skill/google-analytics",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-analytics/readme",
+    "description": "Google Analytics API integration with managed OAuth. Manage accounts, properties, and data streams (Admin API). Run reports on sessions, users, page views, and conversions (Data API). Use this skill when users want to configure or query Google Analytics. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 4979,
-      "installsAllTime": 26,
-      "installsCurrent": 26,
-      "stars": 7,
-      "versions": 5
+      "downloads": 5364,
+      "installsAllTime": 6,
+      "installsCurrent": 6,
+      "stars": 11,
+      "versions": 8
     },
     "source": "clawhub"
   },
   {
-    "slug": "base-trader",
-    "name": "Base Trader",
-    "url": "https://clawhub.ai/skill/base-trader",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/base-trader/readme",
-    "description": "Autonomous crypto trading on Base via Bankr. Use for trading tokens, monitoring launches, executing strategies, or managing a trading portfolio. Triggers on \"trade\", \"buy\", \"sell\", \"launch\", \"snipe\", \"profit\", \"PnL\", \"portfolio balance\", or any crypto trading task on Base.",
+    "slug": "myfeed",
+    "name": "My Life Feed",
+    "url": "https://clawhub.ai/skill/myfeed",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/myfeed/readme",
+    "description": "Manage MyFeed things and groups via the MyFeed REST API.",
     "stats": {
-      "comments": 4,
-      "downloads": 4932,
-      "installsAllTime": 9,
-      "installsCurrent": 8,
-      "stars": 16,
-      "versions": 4
+      "comments": 0,
+      "downloads": 5301,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 14,
+      "versions": 3
     },
     "source": "clawhub"
   },
@@ -24167,107 +24135,11 @@
     "description": "The Baidu Baike Component is a knowledge service tool designed to query authoritative encyclopedia explanations for various nouns. Its core function is given a specific \"noun\" (object, person, location, concept, event, etc.) provided by the user, it returns a standardized, detailed entry explanation sourced from Baidu Baike.",
     "stats": {
       "comments": 0,
-      "downloads": 4924,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
+      "downloads": 5292,
+      "installsAllTime": 13,
+      "installsCurrent": 13,
       "stars": 0,
       "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "one-drive",
-    "name": "Microsoft OneDrive",
-    "url": "https://clawhub.ai/skill/one-drive",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/one-drive/readme",
-    "description": "OneDrive API integration with managed OAuth via Microsoft Graph. Manage files, folders, and sharing. Use this skill when users want to upload, download, orga...",
-    "stats": {
-      "comments": 0,
-      "downloads": 4919,
-      "installsAllTime": 5,
-      "installsCurrent": 5,
-      "stars": 6,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "telegram-api",
-    "name": "Telegram Bot",
-    "url": "https://clawhub.ai/skill/telegram-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/telegram-api/readme",
-    "description": "Telegram Bot API integration with managed authentication. Send messages, manage chats, handle updates, and interact with users through your Telegram bot. Use this skill when users want to send messages, create polls, manage bot commands, or interact with Telegram chats. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4845,
-      "installsAllTime": 10,
-      "installsCurrent": 10,
-      "stars": 5,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-docs",
-    "name": "Google Docs",
-    "url": "https://clawhub.ai/skill/google-docs",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-docs/readme",
-    "description": "Google Docs API integration with managed OAuth. Create documents, insert text, apply formatting, and manage content. Use this skill when users want to interact with Google Docs. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4827,
-      "installsAllTime": 8,
-      "installsCurrent": 8,
-      "stars": 6,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-contacts",
-    "name": "Google Contacts",
-    "url": "https://clawhub.ai/skill/google-contacts",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-contacts/readme",
-    "description": "Google Contacts API integration with managed OAuth. Manage contacts, contact groups, and search your address book.\nUse this skill when users want to create, read, update, or delete contacts, manage contact groups, or search for people in their Google account.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4788,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 4,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "finance-news",
-    "name": "Finance News Briefings",
-    "url": "https://clawhub.ai/skill/finance-news",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/finance-news/readme",
-    "description": "Market news briefings with AI summaries. Use when asked about stock news, market updates, portfolio performance, morning/evening briefings, financial headlines, or price alerts. Supports US/Europe/Japan markets, WhatsApp delivery, and English/German output.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4783,
-      "installsAllTime": 18,
-      "installsCurrent": 18,
-      "stars": 3,
-      "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "slack-api",
-    "name": "Slack",
-    "url": "https://clawhub.ai/skill/slack-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/slack-api/readme",
-    "description": "Slack API integration with managed OAuth. Send messages, manage channels, search conversations, and interact with Slack workspaces. Use this skill when users want to post messages, list channels, get user info, or automate Slack workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4760,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 6,
-      "versions": 8
     },
     "source": "clawhub"
   },
@@ -24279,26 +24151,10 @@
     "description": "Use when reviewing code for security vulnerabilities, implementing authentication flows, auditing OWASP Top 10, configuring CORS/CSP headers, handling secrets, input validation, SQL injection prevention, XSS protection, or any security-related code review.",
     "stats": {
       "comments": 0,
-      "downloads": 4748,
-      "installsAllTime": 23,
-      "installsCurrent": 23,
+      "downloads": 5250,
+      "installsAllTime": 25,
+      "installsCurrent": 25,
       "stars": 4,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "reddit-readonly",
-    "name": "Reddit (read only - no auth)",
-    "url": "https://clawhub.ai/skill/reddit-readonly",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-readonly/readme",
-    "description": "Browse and search Reddit in read-only mode using public JSON endpoints. Use when the user asks to browse subreddits, search for posts by topic, inspect comment threads, or build a shortlist of links to review and reply to manually.",
-    "stats": {
-      "comments": 7,
-      "downloads": 4743,
-      "installsAllTime": 24,
-      "installsCurrent": 24,
-      "stars": 13,
       "versions": 1
     },
     "source": "clawhub"
@@ -24311,11 +24167,155 @@
     "description": "将用户讲稿一键生成乔布斯风极简科技感竖屏HTML演示稿。当用户需要生成PPT、演示文稿、Slides、幻灯片，或要求科技风/极简风/乔布斯风格的演示时触发此技能。输出为单个可直接运行的HTML文件。",
     "stats": {
       "comments": 0,
-      "downloads": 4696,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
+      "downloads": 5148,
+      "installsAllTime": 15,
+      "installsCurrent": 15,
       "stars": 7,
       "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "reddit-readonly",
+    "name": "Reddit (read only - no auth)",
+    "url": "https://clawhub.ai/skill/reddit-readonly",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-readonly/readme",
+    "description": "Browse and search Reddit in read-only mode using public JSON endpoints. Use when the user asks to browse subreddits, search for posts by topic, inspect comment threads, or build a shortlist of links to review and reply to manually.",
+    "stats": {
+      "comments": 7,
+      "downloads": 5135,
+      "installsAllTime": 27,
+      "installsCurrent": 27,
+      "stars": 14,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "finance-news",
+    "name": "Finance News Briefings",
+    "url": "https://clawhub.ai/skill/finance-news",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/finance-news/readme",
+    "description": "Market news briefings with AI summaries. Use when asked about stock news, market updates, portfolio performance, morning/evening briefings, financial headlines, or price alerts. Supports US/Europe/Japan markets, WhatsApp delivery, and English/German output.",
+    "stats": {
+      "comments": 0,
+      "downloads": 5133,
+      "installsAllTime": 18,
+      "installsCurrent": 18,
+      "stars": 3,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "crypto-price",
+    "name": "Crypto Price",
+    "url": "https://clawhub.ai/skill/crypto-price",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/crypto-price/readme",
+    "description": "Get cryptocurrency token price and generate candlestick charts via CoinGecko API or Hyperliquid API. Use when user asks for token price, crypto price, price chart, or cryptocurrency market data.",
+    "stats": {
+      "comments": 0,
+      "downloads": 5107,
+      "installsAllTime": 28,
+      "installsCurrent": 28,
+      "stars": 7,
+      "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "telegram-api",
+    "name": "Telegram Bot",
+    "url": "https://clawhub.ai/skill/telegram-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/telegram-api/readme",
+    "description": "Telegram Bot API integration with managed authentication. Send messages, manage chats, handle updates, and interact with users through your Telegram bot. Use this skill when users want to send messages, create polls, manage bot commands, or interact with Telegram chats. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 5100,
+      "installsAllTime": 12,
+      "installsCurrent": 12,
+      "stars": 5,
+      "versions": 3
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "larry",
+    "name": "Larry",
+    "url": "https://clawhub.ai/skill/larry",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/larry/readme",
+    "description": "Automate TikTok slideshow marketing for any app or product. Researches competitors, generates AI images, adds text overlays, posts via Postiz, tracks analyti...",
+    "stats": {
+      "comments": 0,
+      "downloads": 5082,
+      "installsAllTime": 7,
+      "installsCurrent": 7,
+      "stars": 71,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "base-trader",
+    "name": "Base Trader",
+    "url": "https://clawhub.ai/skill/base-trader",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/base-trader/readme",
+    "description": "Autonomous crypto trading on Base via Bankr. Use for trading tokens, monitoring launches, executing strategies, or managing a trading portfolio. Triggers on \"trade\", \"buy\", \"sell\", \"launch\", \"snipe\", \"profit\", \"PnL\", \"portfolio balance\", or any crypto trading task on Base.",
+    "stats": {
+      "comments": 4,
+      "downloads": 5054,
+      "installsAllTime": 11,
+      "installsCurrent": 10,
+      "stars": 16,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-tasks-api",
+    "name": "Google Tasks",
+    "url": "https://clawhub.ai/skill/google-tasks-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-tasks-api/readme",
+    "description": "Google Tasks API integration with managed OAuth. Manage task lists and tasks with full CRUD operations.\nUse this skill when users want to read, create, update, or delete tasks and task lists in Google Tasks.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 1,
+      "downloads": 5053,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 8,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-docs",
+    "name": "Google Docs",
+    "url": "https://clawhub.ai/skill/google-docs",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-docs/readme",
+    "description": "Google Docs API integration with managed OAuth. Create documents, insert text, apply formatting, and manage content. Use this skill when users want to interact with Google Docs. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 5029,
+      "installsAllTime": 11,
+      "installsCurrent": 11,
+      "stars": 6,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "one-drive",
+    "name": "Microsoft OneDrive",
+    "url": "https://clawhub.ai/skill/one-drive",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/one-drive/readme",
+    "description": "OneDrive API integration with managed OAuth via Microsoft Graph. Manage files, folders, and sharing. Use this skill when users want to upload, download, orga...",
+    "stats": {
+      "comments": 0,
+      "downloads": 5023,
+      "installsAllTime": 7,
+      "installsCurrent": 7,
+      "stars": 6,
+      "versions": 4
     },
     "source": "clawhub"
   },
@@ -24327,91 +24327,43 @@
     "description": "Baidu Scholar Search - Search Chinese and English academic literature (journals, conferences, papers, etc.)",
     "stats": {
       "comments": 0,
-      "downloads": 4693,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
+      "downloads": 5014,
+      "installsAllTime": 13,
+      "installsCurrent": 13,
       "stars": 3,
       "versions": 6
     },
     "source": "clawhub"
   },
   {
-    "slug": "quickbooks",
-    "name": "QuickBooks",
-    "url": "https://clawhub.ai/skill/quickbooks",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/quickbooks/readme",
-    "description": "QuickBooks API integration with managed OAuth. Manage customers, invoices, payments, bills, and run financial reports. Use this skill when users want to interact with QuickBooks accounting data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "slug": "openclaw-anything",
+    "name": "Comprehensive skill for installing, configuring, and managing the OpenClaw ecosystem (Gateway, Channels, Models, Automation, Nodes, and Deployment)",
+    "url": "https://clawhub.ai/skill/openclaw-anything",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-anything/readme",
+    "description": "OpenClaw CLI wrapper — gateway, channels, models, agents, nodes, browser, memory, security, automation.",
     "stats": {
       "comments": 0,
-      "downloads": 4691,
-      "installsAllTime": 6,
-      "installsCurrent": 6,
-      "stars": 3,
-      "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "news-aggregator-skill",
-    "name": "News Aggregator Skill",
-    "url": "https://clawhub.ai/skill/news-aggregator-skill",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/news-aggregator-skill/readme",
-    "description": "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 8 major sources: Hacker News, GitHub Trending, Product Hunt, 36Kr, Tencent News, WallStreetCN, V2EX, and Weibo. Best for 'daily scans', 'tech news briefings', 'finance updates', and 'deep interpretations' of hot topics.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4638,
-      "installsAllTime": 21,
-      "installsCurrent": 21,
-      "stars": 9,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "acuity-scheduling",
-    "name": "Acuity Scheduling",
-    "url": "https://clawhub.ai/skill/acuity-scheduling",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/acuity-scheduling/readme",
-    "description": "Acuity Scheduling API integration with managed OAuth. Manage appointments, calendars, clients, and availability. Use this skill when users want to schedule, reschedule, or cancel appointments, check availability, or manage clients and calendars. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4632,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 2,
+      "downloads": 4983,
+      "installsAllTime": 37,
+      "installsCurrent": 35,
+      "stars": 16,
       "versions": 3
     },
     "source": "clawhub"
   },
   {
-    "slug": "google-merchant",
-    "name": "Google Merchant Center",
-    "url": "https://clawhub.ai/skill/google-merchant",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-merchant/readme",
-    "description": "Google Merchant Center API integration with managed OAuth. Manage products, inventories, data sources, promotions, and reports for Google Shopping. Use this...",
+    "slug": "us-stock-analysis",
+    "name": "Us Stock Analysis",
+    "url": "https://clawhub.ai/skill/us-stock-analysis",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/us-stock-analysis/readme",
+    "description": "Comprehensive US stock analysis including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Use when user requests analysis of US stock tickers (e.g., \"analyze AAPL\", \"compare TSLA vs NVDA\", \"give me a report on Microsoft\"), evaluation of financial metrics, technical chart analysis, or investment recommendations for American stocks.",
     "stats": {
       "comments": 0,
-      "downloads": 4630,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 3,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "openclaw-mem",
-    "name": "OpenClaw Memory",
-    "url": "https://clawhub.ai/skill/openclaw-mem",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-mem/readme",
-    "description": "Session-first memory curator for OpenClaw. Keeps RAM clean, recall precise, and durable knowledge safe.",
-    "stats": {
-      "comments": 1,
-      "downloads": 4603,
-      "installsAllTime": 12,
-      "installsCurrent": 10,
-      "stars": 14,
-      "versions": 6
+      "downloads": 4972,
+      "installsAllTime": 17,
+      "installsCurrent": 16,
+      "stars": 17,
+      "versions": 2
     },
     "source": "clawhub"
   },
@@ -24423,26 +24375,74 @@
     "description": "Query Polymarket prediction market odds and events via CLI. Search for markets, get current prices, list events by category. Supports sports betting (NFL, NBA, soccer/EPL, Champions League), politics, crypto, elections, geopolitics. Real money markets = more accurate than polls. No API key required. Use when asked about odds, probabilities, predictions, or \"what are the chances of X\".",
     "stats": {
       "comments": 0,
-      "downloads": 4597,
+      "downloads": 4939,
       "installsAllTime": 13,
       "installsCurrent": 13,
-      "stars": 25,
+      "stars": 29,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "jira-api",
-    "name": "Jira",
-    "url": "https://clawhub.ai/skill/jira-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/jira-api/readme",
-    "description": "Jira API integration with managed OAuth. Search issues with JQL, create and update issues, manage projects and transitions. Use this skill when users want to interact with Jira issues, projects, or workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "slug": "news-aggregator-skill",
+    "name": "News Aggregator Skill",
+    "url": "https://clawhub.ai/skill/news-aggregator-skill",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/news-aggregator-skill/readme",
+    "description": "Comprehensive news aggregator that fetches, filters, and deeply analyzes real-time content from 8 major sources: Hacker News, GitHub Trending, Product Hunt, 36Kr, Tencent News, WallStreetCN, V2EX, and Weibo. Best for 'daily scans', 'tech news briefings', 'finance updates', and 'deep interpretations' of hot topics.",
     "stats": {
       "comments": 0,
-      "downloads": 4593,
-      "installsAllTime": 4,
-      "installsCurrent": 4,
-      "stars": 5,
+      "downloads": 4889,
+      "installsAllTime": 23,
+      "installsCurrent": 23,
+      "stars": 9,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-contacts",
+    "name": "Google Contacts",
+    "url": "https://clawhub.ai/skill/google-contacts",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-contacts/readme",
+    "description": "Google Contacts API integration with managed OAuth. Manage contacts, contact groups, and search your address book.\nUse this skill when users want to create, read, update, or delete contacts, manage contact groups, or search for people in their Google account.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4846,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 4,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "slack-api",
+    "name": "Slack",
+    "url": "https://clawhub.ai/skill/slack-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/slack-api/readme",
+    "description": "Slack API integration with managed OAuth. Send messages, manage channels, search conversations, and interact with Slack workspaces. Use this skill when users want to post messages, list channels, get user info, or automate Slack workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4840,
+      "installsAllTime": 1,
+      "installsCurrent": 1,
+      "stars": 6,
+      "versions": 8
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "openclaw-mem",
+    "name": "OpenClaw Memory",
+    "url": "https://clawhub.ai/skill/openclaw-mem",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-mem/readme",
+    "description": "Session-first memory curator for OpenClaw. Keeps RAM clean, recall precise, and durable knowledge safe.",
+    "stats": {
+      "comments": 1,
+      "downloads": 4839,
+      "installsAllTime": 15,
+      "installsCurrent": 13,
+      "stars": 14,
       "versions": 6
     },
     "source": "clawhub"
@@ -24455,43 +24455,171 @@
     "description": "Connect a Feishu (Lark) bot to Clawdbot via WebSocket long-connection. No public server, domain, or ngrok required. Use when setting up Feishu/Lark as a messaging channel, troubleshooting the Feishu bridge, or managing the bridge service (start/stop/logs). Covers bot creation on Feishu Open Platform, credential setup, bridge startup, macOS launchd auto-restart, and group chat behavior tuning.",
     "stats": {
       "comments": 0,
-      "downloads": 4580,
-      "installsAllTime": 16,
-      "installsCurrent": 16,
-      "stars": 3,
+      "downloads": 4838,
+      "installsAllTime": 17,
+      "installsCurrent": 17,
+      "stars": 4,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "x-ai",
-    "name": "xAI / Grok",
-    "url": "https://clawhub.ai/skill/x-ai",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/x-ai/readme",
-    "description": "Chat with Grok models via xAI API. Supports Grok-3, Grok-3-mini, vision, and more.",
+    "slug": "ai-notes-ofvideo",
+    "name": "ai notes of video",
+    "url": "https://clawhub.ai/skill/ai-notes-ofvideo",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ai-notes-ofvideo/readme",
+    "description": "Generate AI-powered notes from videos (document, outline, or graphic-text formats)",
     "stats": {
-      "comments": 2,
-      "downloads": 4578,
+      "comments": 0,
+      "downloads": 4822,
+      "installsAllTime": 13,
+      "installsCurrent": 13,
+      "stars": 1,
+      "versions": 12
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "pdf-text-extractor",
+    "name": "PDF Text Extractor",
+    "url": "https://clawhub.ai/skill/pdf-text-extractor",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pdf-text-extractor/readme",
+    "description": "Extract text from PDFs with OCR support. Perfect for digitizing documents, processing invoices, or analyzing content. Zero dependencies required.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4811,
+      "installsAllTime": 36,
+      "installsCurrent": 34,
+      "stars": 11,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "quickbooks",
+    "name": "QuickBooks",
+    "url": "https://clawhub.ai/skill/quickbooks",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/quickbooks/readme",
+    "description": "QuickBooks API integration with managed OAuth. Manage customers, invoices, payments, bills, and run financial reports. Use this skill when users want to interact with QuickBooks accounting data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4798,
+      "installsAllTime": 7,
+      "installsCurrent": 7,
+      "stars": 4,
+      "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "hyperliquid-trading",
+    "name": "Hyperliquid Trading & Analysis",
+    "url": "https://clawhub.ai/skill/hyperliquid-trading",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/hyperliquid-trading/readme",
+    "description": "Trade and monitor Hyperliquid perpetual futures. Check balances, view positions with P&L, place/cancel orders, execute market trades. Use when the user asks about Hyperliquid trading, portfolio status, crypto positions, or wants to execute trades on Hyperliquid.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4730,
+      "installsAllTime": 21,
+      "installsCurrent": 21,
+      "stars": 16,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "notion-skill",
+    "name": "Notion",
+    "url": "https://clawhub.ai/skill/notion-skill",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/notion-skill/readme",
+    "description": "Work with Notion pages and databases via the official Notion API.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4708,
+      "installsAllTime": 32,
+      "installsCurrent": 31,
+      "stars": 4,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-merchant",
+    "name": "Google Merchant Center",
+    "url": "https://clawhub.ai/skill/google-merchant",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-merchant/readme",
+    "description": "Google Merchant Center API integration with managed OAuth. Manage products, inventories, data sources, promotions, and reports for Google Shopping. Use this...",
+    "stats": {
+      "comments": 0,
+      "downloads": 4686,
       "installsAllTime": 0,
       "installsCurrent": 0,
-      "stars": 6,
+      "stars": 3,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "acuity-scheduling",
+    "name": "Acuity Scheduling",
+    "url": "https://clawhub.ai/skill/acuity-scheduling",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/acuity-scheduling/readme",
+    "description": "Acuity Scheduling API integration with managed OAuth. Manage appointments, calendars, clients, and availability. Use this skill when users want to schedule, reschedule, or cancel appointments, check availability, or manage clients and calendars. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4686,
+      "installsAllTime": 1,
+      "installsCurrent": 1,
+      "stars": 2,
       "versions": 3
     },
     "source": "clawhub"
   },
   {
-    "slug": "openclaw-anything",
-    "name": "Comprehensive skill for installing, configuring, and managing the OpenClaw ecosystem (Gateway, Channels, Models, Automation, Nodes, and Deployment)",
-    "url": "https://clawhub.ai/skill/openclaw-anything",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-anything/readme",
-    "description": "OpenClaw CLI wrapper — gateway, channels, models, agents, nodes, browser, memory, security, automation.",
+    "slug": "jira-api",
+    "name": "Jira",
+    "url": "https://clawhub.ai/skill/jira-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/jira-api/readme",
+    "description": "Jira API integration with managed OAuth. Search issues with JQL, create and update issues, manage projects and transitions. Use this skill when users want to interact with Jira issues, projects, or workflows. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 4577,
-      "installsAllTime": 32,
-      "installsCurrent": 31,
-      "stars": 15,
-      "versions": 3
+      "downloads": 4653,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
+      "stars": 5,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-search-console",
+    "name": "Google Search Console",
+    "url": "https://clawhub.ai/skill/google-search-console",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-search-console/readme",
+    "description": "Google Search Console API integration with managed OAuth. Query search analytics, manage sitemaps, and monitor site performance. Use this skill when users want to access Search Console data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4630,
+      "installsAllTime": 8,
+      "installsCurrent": 6,
+      "stars": 5,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "supermemory",
+    "name": "Supermemory",
+    "url": "https://clawhub.ai/skill/supermemory",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/supermemory/readme",
+    "description": "Store and retrieve memories using the SuperMemory API. Add content, search memories, and chat with your knowledge base.",
+    "stats": {
+      "comments": 1,
+      "downloads": 4627,
+      "installsAllTime": 23,
+      "installsCurrent": 23,
+      "stars": 13,
+      "versions": 1
     },
     "source": "clawhub"
   },
@@ -24503,10 +24631,26 @@
     "description": "Apollo.io API integration with managed OAuth. Search and enrich people and companies, manage contacts and accounts. Use this skill when users want to prospect, enrich leads, or manage sales data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 4570,
+      "downloads": 4619,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 4,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "stock-info-explorer",
+    "name": "Stock Info Explorer",
+    "url": "https://clawhub.ai/skill/stock-info-explorer",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stock-info-explorer/readme",
+    "description": "A Yahoo Finance (yfinance) powered financial analysis tool. Get real-time quotes, generate high-resolution charts with moving averages + indicators (RSI/MACD/Bollinger/VWAP/ATR), summarize fundamentals, and run a one-shot report that outputs both a text summary and a Pro chart.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4599,
+      "installsAllTime": 12,
+      "installsCurrent": 12,
+      "stars": 5,
       "versions": 6
     },
     "source": "clawhub"
@@ -24519,7 +24663,7 @@
     "description": "Jobber API integration with managed OAuth. Manage clients, jobs, invoices, quotes, properties, and team members for field service businesses.\nUse this skill when users want to create and manage service jobs, clients, quotes, invoices, or access scheduling data.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 0,
-      "downloads": 4543,
+      "downloads": 4596,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
@@ -24528,34 +24672,34 @@
     "source": "clawhub"
   },
   {
-    "slug": "hyperliquid-trading",
-    "name": "Hyperliquid Trading & Analysis",
-    "url": "https://clawhub.ai/skill/hyperliquid-trading",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/hyperliquid-trading/readme",
-    "description": "Trade and monitor Hyperliquid perpetual futures. Check balances, view positions with P&L, place/cancel orders, execute market trades. Use when the user asks about Hyperliquid trading, portfolio status, crypto positions, or wants to execute trades on Hyperliquid.",
+    "slug": "x-ai",
+    "name": "xAI / Grok",
+    "url": "https://clawhub.ai/skill/x-ai",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/x-ai/readme",
+    "description": "Chat with Grok models via xAI API. Supports Grok-3, Grok-3-mini, vision, and more.",
     "stats": {
-      "comments": 0,
-      "downloads": 4536,
-      "installsAllTime": 20,
-      "installsCurrent": 20,
-      "stars": 15,
-      "versions": 1
+      "comments": 2,
+      "downloads": 4591,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 7,
+      "versions": 3
     },
     "source": "clawhub"
   },
   {
-    "slug": "constant-contact",
-    "name": "Constant Contact",
-    "url": "https://clawhub.ai/skill/constant-contact",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/constant-contact/readme",
-    "description": "Constant Contact API integration with managed OAuth. Manage contacts, email campaigns, lists, segments, and marketing automation.\nUse this skill when users want to manage email marketing campaigns, contact lists, or analyze campaign performance.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "technical-analyst",
+    "name": "Technical Analyst",
+    "url": "https://clawhub.ai/skill/technical-analyst",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/technical-analyst/readme",
+    "description": "This skill should be used when analyzing weekly price charts for stocks, stock indices, cryptocurrencies, or forex pairs. Use this skill when the user provides chart images and requests technical analysis, trend identification, support/resistance levels, scenario planning, or probability assessments based purely on chart data without consideration of news or fundamental factors.",
     "stats": {
       "comments": 0,
-      "downloads": 4528,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 2,
-      "versions": 4
+      "downloads": 4579,
+      "installsAllTime": 26,
+      "installsCurrent": 26,
+      "stars": 17,
+      "versions": 1
     },
     "source": "clawhub"
   },
@@ -24567,7 +24711,7 @@
     "description": "Square API integration with managed OAuth. Process payments, manage customers, orders, catalog, inventory, and invoices.\nUse this skill when users want to accept payments, manage point-of-sale operations, track inventory, or handle invoicing through Square.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 0,
-      "downloads": 4525,
+      "downloads": 4577,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
@@ -24576,33 +24720,33 @@
     "source": "clawhub"
   },
   {
-    "slug": "notion-skill",
-    "name": "Notion",
-    "url": "https://clawhub.ai/skill/notion-skill",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/notion-skill/readme",
-    "description": "Work with Notion pages and databases via the official Notion API.",
+    "slug": "constant-contact",
+    "name": "Constant Contact",
+    "url": "https://clawhub.ai/skill/constant-contact",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/constant-contact/readme",
+    "description": "Constant Contact API integration with managed OAuth. Manage contacts, email campaigns, lists, segments, and marketing automation.\nUse this skill when users want to manage email marketing campaigns, contact lists, or analyze campaign performance.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 0,
-      "downloads": 4510,
-      "installsAllTime": 28,
-      "installsCurrent": 27,
-      "stars": 4,
-      "versions": 1
+      "downloads": 4570,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 2,
+      "versions": 4
     },
     "source": "clawhub"
   },
   {
-    "slug": "pdf-text-extractor",
-    "name": "PDF Text Extractor",
-    "url": "https://clawhub.ai/skill/pdf-text-extractor",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pdf-text-extractor/readme",
-    "description": "Extract text from PDFs with OCR support. Perfect for digitizing documents, processing invoices, or analyzing content. Zero dependencies required.",
+    "slug": "pdf-extract",
+    "name": "Pdf Extract",
+    "url": "https://clawhub.ai/skill/pdf-extract",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pdf-extract/readme",
+    "description": "Extract text from PDF files for LLM processing",
     "stats": {
       "comments": 0,
-      "downloads": 4508,
-      "installsAllTime": 29,
-      "installsCurrent": 28,
-      "stars": 9,
+      "downloads": 4551,
+      "installsAllTime": 24,
+      "installsCurrent": 22,
+      "stars": 7,
       "versions": 1
     },
     "source": "clawhub"
@@ -24615,27 +24759,11 @@
     "description": "Chargebee API integration with managed OAuth. Manage subscriptions, customers, invoices, and hosted checkout pages. Use this skill when users want to interact with Chargebee billing data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
     "stats": {
       "comments": 0,
-      "downloads": 4502,
+      "downloads": 4538,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
       "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "ai-notes-ofvideo",
-    "name": "ai notes of video",
-    "url": "https://clawhub.ai/skill/ai-notes-ofvideo",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ai-notes-ofvideo/readme",
-    "description": "Generate AI-powered notes from videos (document, outline, or graphic-text formats)",
-    "stats": {
-      "comments": 0,
-      "downloads": 4501,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
-      "stars": 1,
-      "versions": 12
     },
     "source": "clawhub"
   },
@@ -24647,187 +24775,11 @@
     "description": "Eventbrite API integration with managed OAuth. Manage events, venues, ticket classes, orders, and attendees.\nUse this skill when users want to create and manage events, check orders, view attendees, or access event categories.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
     "stats": {
       "comments": 0,
-      "downloads": 4485,
+      "downloads": 4529,
       "installsAllTime": 0,
       "installsCurrent": 0,
       "stars": 2,
       "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-search-console",
-    "name": "Google Search Console",
-    "url": "https://clawhub.ai/skill/google-search-console",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-search-console/readme",
-    "description": "Google Search Console API integration with managed OAuth. Query search analytics, manage sitemaps, and monitor site performance. Use this skill when users want to access Search Console data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4471,
-      "installsAllTime": 7,
-      "installsCurrent": 5,
-      "stars": 5,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "us-stock-analysis",
-    "name": "Us Stock Analysis",
-    "url": "https://clawhub.ai/skill/us-stock-analysis",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/us-stock-analysis/readme",
-    "description": "Comprehensive US stock analysis including fundamental analysis (financial metrics, business quality, valuation), technical analysis (indicators, chart patterns, support/resistance), stock comparisons, and investment report generation. Use when user requests analysis of US stock tickers (e.g., \"analyze AAPL\", \"compare TSLA vs NVDA\", \"give me a report on Microsoft\"), evaluation of financial metrics, technical chart analysis, or investment recommendations for American stocks.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4468,
-      "installsAllTime": 13,
-      "installsCurrent": 12,
-      "stars": 14,
-      "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "supermemory",
-    "name": "Supermemory",
-    "url": "https://clawhub.ai/skill/supermemory",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/supermemory/readme",
-    "description": "Store and retrieve memories using the SuperMemory API. Add content, search memories, and chat with your knowledge base.",
-    "stats": {
-      "comments": 1,
-      "downloads": 4355,
-      "installsAllTime": 19,
-      "installsCurrent": 19,
-      "stars": 12,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "stock-info-explorer",
-    "name": "Stock Info Explorer",
-    "url": "https://clawhub.ai/skill/stock-info-explorer",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stock-info-explorer/readme",
-    "description": "A Yahoo Finance (yfinance) powered financial analysis tool. Get real-time quotes, generate high-resolution charts with moving averages + indicators (RSI/MACD/Bollinger/VWAP/ATR), summarize fundamentals, and run a one-shot report that outputs both a text summary and a Pro chart.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4306,
-      "installsAllTime": 10,
-      "installsCurrent": 10,
-      "stars": 5,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "jotform",
-    "name": "JotForm",
-    "url": "https://clawhub.ai/skill/jotform",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/jotform/readme",
-    "description": "JotForm API integration with managed OAuth. Create forms, manage submissions, and access form data. Use this skill when users want to interact with JotForm forms and submissions. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4278,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 2,
-      "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "reddit-insights",
-    "name": "Reddit Insights",
-    "url": "https://clawhub.ai/skill/reddit-insights",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-insights/readme",
-    "description": "Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.\nUse when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.\nTriggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4270,
-      "installsAllTime": 18,
-      "installsCurrent": 18,
-      "stars": 4,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "clawdex",
-    "name": "Clawdex by Koi",
-    "url": "https://clawhub.ai/skill/clawdex",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/clawdex/readme",
-    "description": "Security check for ClawHub skills powered by Koi. Query the Clawdex API before installing any skill to verify it's safe.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4219,
-      "installsAllTime": 29,
-      "installsCurrent": 29,
-      "stars": 2,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "pdf-extract",
-    "name": "Pdf Extract",
-    "url": "https://clawhub.ai/skill/pdf-extract",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pdf-extract/readme",
-    "description": "Extract text from PDF files for LLM processing",
-    "stats": {
-      "comments": 0,
-      "downloads": 4215,
-      "installsAllTime": 21,
-      "installsCurrent": 20,
-      "stars": 7,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-ads-api",
-    "name": "Google Ads",
-    "url": "https://clawhub.ai/skill/google-ads-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-ads-api/readme",
-    "description": "Google Ads API integration with managed OAuth. Query campaigns, ad groups, keywords, and performance metrics with GAQL. Use this skill when users want to interact with Google Ads data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 4193,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 10,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "technical-analyst",
-    "name": "Technical Analyst",
-    "url": "https://clawhub.ai/skill/technical-analyst",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/technical-analyst/readme",
-    "description": "This skill should be used when analyzing weekly price charts for stocks, stock indices, cryptocurrencies, or forex pairs. Use this skill when the user provides chart images and requests technical analysis, trend identification, support/resistance levels, scenario planning, or probability assessments based purely on chart data without consideration of news or fundamental factors.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4185,
-      "installsAllTime": 23,
-      "installsCurrent": 23,
-      "stars": 12,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "pentest",
-    "name": "security-reviewer",
-    "url": "https://clawhub.ai/skill/pentest",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pentest/readme",
-    "description": "Use when conducting security audits, reviewing code for vulnerabilities, or analyzing infrastructure security. Invoke for SAST scans, penetration testing, DevSecOps practices, cloud security reviews.",
-    "stats": {
-      "comments": 0,
-      "downloads": 4182,
-      "installsAllTime": 6,
-      "installsCurrent": 6,
-      "stars": 3,
-      "versions": 1
     },
     "source": "clawhub"
   },
@@ -24839,10 +24791,122 @@
     "description": "提供A股实时行情、分时成交量分布及主力资金动向分析，支持持仓管理和盈亏监控。",
     "stats": {
       "comments": 0,
-      "downloads": 4051,
-      "installsAllTime": 15,
-      "installsCurrent": 15,
-      "stars": 23,
+      "downloads": 4437,
+      "installsAllTime": 16,
+      "installsCurrent": 16,
+      "stars": 25,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "reddit-insights",
+    "name": "Reddit Insights",
+    "url": "https://clawhub.ai/skill/reddit-insights",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-insights/readme",
+    "description": "Search and analyze Reddit content using semantic AI search via reddit-insights.com MCP server.\nUse when you need to: (1) Find user pain points and frustrations for product ideas, (2) Discover niche markets or underserved needs, (3) Research what people really think about products/topics, (4) Find content inspiration from real discussions, (5) Analyze sentiment and trends on Reddit, (6) Validate business ideas with real user feedback.\nTriggers: reddit search, find pain points, market research, user feedback, what do people think about, reddit trends, niche discovery, product validation.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4436,
+      "installsAllTime": 20,
+      "installsCurrent": 20,
+      "stars": 4,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "openclaw-agent-optimize",
+    "name": "OpenClaw Agent Optimization",
+    "url": "https://clawhub.ai/skill/openclaw-agent-optimize",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-agent-optimize/readme",
+    "description": "Use when: you want to optimize an OpenClaw setup (cost/quality tradeoffs, model routing, context discipline, delegation, reliability) and you’re okay with a...",
+    "stats": {
+      "comments": 1,
+      "downloads": 4421,
+      "installsAllTime": 16,
+      "installsCurrent": 16,
+      "stars": 17,
+      "versions": 11
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "clawdex",
+    "name": "Clawdex by Koi",
+    "url": "https://clawhub.ai/skill/clawdex",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/clawdex/readme",
+    "description": "Security check for ClawHub skills powered by Koi. Query the Clawdex API before installing any skill to verify it's safe.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4402,
+      "installsAllTime": 34,
+      "installsCurrent": 34,
+      "stars": 2,
+      "versions": 3
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-ads-api",
+    "name": "Google Ads",
+    "url": "https://clawhub.ai/skill/google-ads-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-ads-api/readme",
+    "description": "Google Ads API integration with managed OAuth. Query campaigns, ad groups, keywords, and performance metrics with GAQL. Use this skill when users want to interact with Google Ads data. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4332,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 10,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "pentest",
+    "name": "security-reviewer",
+    "url": "https://clawhub.ai/skill/pentest",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/pentest/readme",
+    "description": "Use when conducting security audits, reviewing code for vulnerabilities, or analyzing infrastructure security. Invoke for SAST scans, penetration testing, DevSecOps practices, cloud security reviews.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4327,
+      "installsAllTime": 7,
+      "installsCurrent": 7,
+      "stars": 3,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "jotform",
+    "name": "JotForm",
+    "url": "https://clawhub.ai/skill/jotform",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/jotform/readme",
+    "description": "JotForm API integration with managed OAuth. Create forms, manage submissions, and access form data. Use this skill when users want to interact with JotForm forms and submissions. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 4317,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 2,
+      "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "trading-coach",
+    "name": "Trading Coach",
+    "url": "https://clawhub.ai/skill/trading-coach",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/trading-coach/readme",
+    "description": "🏆 AI交易复盘教练 — 把你的券商CSV变成可执行的改进洞察！\n自动FIFO配对持仓，8维度质量评分(入场/出场/趋势/风险...)，10维度AI洞察。\n支持富途(中/英)、老虎、中信、华泰等主流券商。\n触发条件: 用户提供交易CSV、要求分析交易表现、评估交易质量、生成复盘报告、\n计算盈亏统计、识别交易模式问题、\"帮我复盘\"、\"分析我的交易\"。",
+    "stats": {
+      "comments": 0,
+      "downloads": 4313,
+      "installsAllTime": 1,
+      "installsCurrent": 1,
+      "stars": 8,
       "versions": 1
     },
     "source": "clawhub"
@@ -24855,27 +24919,11 @@
     "description": "Agent memory system with memory graph, context profiles, checkpoint/recover, structured storage, semantic search, observational memory, task tracking, canvas...",
     "stats": {
       "comments": 1,
-      "downloads": 4038,
-      "installsAllTime": 13,
-      "installsCurrent": 12,
-      "stars": 5,
+      "downloads": 4259,
+      "installsAllTime": 17,
+      "installsCurrent": 15,
+      "stars": 6,
       "versions": 43
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "openclaw-agent-optimize",
-    "name": "OpenClaw Agent Optimization",
-    "url": "https://clawhub.ai/skill/openclaw-agent-optimize",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-agent-optimize/readme",
-    "description": "Use when: you want to optimize an OpenClaw setup (cost/quality tradeoffs, model routing, context discipline, delegation, reliability) and you’re okay with a...",
-    "stats": {
-      "comments": 1,
-      "downloads": 4005,
-      "installsAllTime": 10,
-      "installsCurrent": 10,
-      "stars": 15,
-      "versions": 11
     },
     "source": "clawhub"
   },
@@ -24887,42 +24935,10 @@
     "description": "This skill should be used when the user asks to \"get stock prices\", \"check stock quotes\", \"look up earnings\", \"get financial data\", \"find trending stocks\", or needs stock market data from Yahoo Finance.",
     "stats": {
       "comments": 0,
-      "downloads": 4002,
-      "installsAllTime": 15,
-      "installsCurrent": 15,
+      "downloads": 4223,
+      "installsAllTime": 16,
+      "installsCurrent": 16,
       "stars": 4,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "excalidraw",
-    "name": "Excalidraw Diagram Generator",
-    "url": "https://clawhub.ai/skill/excalidraw",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/excalidraw/readme",
-    "description": "Generate hand-drawn style diagrams, flowcharts, and architecture diagrams as PNG images from Excalidraw JSON",
-    "stats": {
-      "comments": 1,
-      "downloads": 3983,
-      "installsAllTime": 12,
-      "installsCurrent": 10,
-      "stars": 4,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "trading-coach",
-    "name": "Trading Coach",
-    "url": "https://clawhub.ai/skill/trading-coach",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/trading-coach/readme",
-    "description": "🏆 AI交易复盘教练 — 把你的券商CSV变成可执行的改进洞察！\n自动FIFO配对持仓，8维度质量评分(入场/出场/趋势/风险...)，10维度AI洞察。\n支持富途(中/英)、老虎、中信、华泰等主流券商。\n触发条件: 用户提供交易CSV、要求分析交易表现、评估交易质量、生成复盘报告、\n计算盈亏统计、识别交易模式问题、\"帮我复盘\"、\"分析我的交易\"。",
-    "stats": {
-      "comments": 0,
-      "downloads": 3973,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 8,
       "versions": 1
     },
     "source": "clawhub"
@@ -24934,331 +24950,27 @@
     "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/proactive-solvr/readme",
     "description": "Transform your AI agent into a proactive partner with soul persistence, collective knowledge via Solvr, self-healing heartbeats, and config enforcement scripts.",
     "stats": {
-      "comments": 1,
-      "downloads": 3849,
-      "installsAllTime": 7,
-      "installsCurrent": 6,
+      "comments": 2,
+      "downloads": 4195,
+      "installsAllTime": 8,
+      "installsCurrent": 7,
       "stars": 3,
       "versions": 17
     },
     "source": "clawhub"
   },
   {
-    "slug": "agent-browser-stagehand",
-    "name": "Agent Browser - Stagehand",
-    "url": "https://clawhub.ai/skill/agent-browser-stagehand",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-stagehand/readme",
-    "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3840,
-      "installsAllTime": 17,
-      "installsCurrent": 17,
-      "stars": 3,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "microsoft-to-do",
-    "name": "Microsoft To Do",
-    "url": "https://clawhub.ai/skill/microsoft-to-do",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/microsoft-to-do/readme",
-    "description": "Microsoft To Do API integration with managed OAuth. Manage task lists, tasks, checklist items, and linked resources.\nUse this skill when users want to create, read, update, or delete tasks and task lists in Microsoft To Do.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3808,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 5,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "polymarket-agent",
-    "name": "Polymarket Agent",
-    "url": "https://clawhub.ai/skill/polymarket-agent",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/polymarket-agent/readme",
-    "description": "Autonomous prediction market agent - analyzes markets, researches news, and identifies trading opportunities",
-    "stats": {
-      "comments": 0,
-      "downloads": 3786,
-      "installsAllTime": 17,
-      "installsCurrent": 17,
-      "stars": 11,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "bilibili-hot-monitor",
-    "name": "B站 (bilibili) 热门视频监控",
-    "url": "https://clawhub.ai/skill/bilibili-hot-monitor",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/bilibili-hot-monitor/readme",
-    "description": "生成B站热门视频日报并发送邮件。触发词：B站热门、bilibili日报、视频日报、热门视频",
-    "stats": {
-      "comments": 0,
-      "downloads": 3710,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 5,
-      "versions": 22
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "openclaw-backup",
-    "name": "OpenClaw Backup",
-    "url": "https://clawhub.ai/skill/openclaw-backup",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-backup/readme",
-    "description": "Backup and restore OpenClaw data. Use when user asks to create backups, set up automatic backup schedules, restore from backup, or manage backup rotation. Handles ~/.openclaw directory archiving with proper exclusions.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3683,
-      "installsAllTime": 13,
-      "installsCurrent": 13,
-      "stars": 5,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "google-forms",
-    "name": "Google Forms",
-    "url": "https://clawhub.ai/skill/google-forms",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-forms/readme",
-    "description": "Google Forms API integration with managed OAuth. Create forms, add questions, and retrieve responses. Use this skill when users want to interact with Google Forms. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 3658,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 4,
-      "versions": 6
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "clawsend",
-    "name": "ClawSend",
-    "url": "https://clawhub.ai/skill/clawsend",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/clawsend/readme",
-    "description": "Agent-to-agent messaging with cryptographic signing and encryption. Send structured messages through the ClawHub relay.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3616,
-      "installsAllTime": 4,
-      "installsCurrent": 4,
-      "stars": 4,
-      "versions": 22
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "market-environment-analysis",
-    "name": "Market Environment Analysis",
-    "url": "https://clawhub.ai/skill/market-environment-analysis",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/market-environment-analysis/readme",
-    "description": "Comprehensive market environment analysis and reporting tool. Analyzes global markets including US, European, Asian markets, forex, commodities, and economic indicators. Provides risk-on/risk-off assessment, sector analysis, and technical indicator interpretation. Triggers on keywords like market analysis, market environment, global markets, trading environment, market conditions, investment climate, market sentiment, forex analysis, stock market analysis, 相場環境, 市場分析, マーケット状況, 投資環境.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3613,
-      "installsAllTime": 4,
-      "installsCurrent": 4,
-      "stars": 2,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "lb-nextjs16-skill",
-    "name": "NextJS 16+ Complete Documentation",
-    "url": "https://clawhub.ai/skill/lb-nextjs16-skill",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/lb-nextjs16-skill/readme",
-    "description": "Complete Next.js 16 documentation in markdown format. Use when working with Next.js projects, building React applications, configuring routing, data fetching, rendering strategies, deployment, or migrating from other frameworks. Covers App Router, Pages Router, API routes, server components, server actions, caching, and all Next.js features.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3590,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 0,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "security-audit-toolkit",
-    "name": "Security Audit Toolkit",
-    "url": "https://clawhub.ai/skill/security-audit-toolkit",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/security-audit-toolkit/readme",
-    "description": "Audit codebases and infrastructure for security issues. Use when scanning dependencies for vulnerabilities, detecting hardcoded secrets, checking OWASP top 10 issues, verifying SSL/TLS, auditing file permissions, or reviewing code for injection and auth flaws.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3581,
-      "installsAllTime": 14,
-      "installsCurrent": 14,
-      "stars": 7,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "binance-pro",
-    "name": "Binance Pro",
-    "url": "https://clawhub.ai/skill/binance-pro",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/binance-pro/readme",
-    "description": "Complete Binance integration - world's largest crypto exchange. Trade spot, futures with up to 125x leverage, staking, and portfolio management. Use to check balances, open/close positions, set stop loss and take profit, check PnL, and any Binance operation.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3567,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
-      "stars": 9,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "agentwallet",
-    "name": "Vincent - Wallet",
-    "url": "https://clawhub.ai/skill/agentwallet",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agentwallet/readme",
-    "description": "The agent's wallet for EVM chain transactions and raw signing. Use this skill when users want to create a wallet, transfer tokens, swap on DEXs, interact wit...",
-    "stats": {
-      "comments": 0,
-      "downloads": 3554,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 2,
-      "versions": 45
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "hubspot-api",
-    "name": "HubSpot",
-    "url": "https://clawhub.ai/skill/hubspot-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/hubspot-api/readme",
-    "description": "HubSpot CRM API integration with managed OAuth. Manage contacts, companies, deals, and associations. Use this skill when users want to create or update CRM records, search contacts, or sync data with HubSpot. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
-    "stats": {
-      "comments": 0,
-      "downloads": 3536,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 4,
-      "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "agent-browser-3",
-    "name": "Agent Browser",
-    "url": "https://clawhub.ai/skill/agent-browser-3",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-3/readme",
-    "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3526,
-      "installsAllTime": 13,
-      "installsCurrent": 13,
-      "stars": 22,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "portfolio-watcher",
-    "name": "Portfolio Watcher",
-    "url": "https://clawhub.ai/skill/portfolio-watcher",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/portfolio-watcher/readme",
-    "description": "Monitor stock/crypto holdings, get price alerts, track portfolio performance",
-    "stats": {
-      "comments": 2,
-      "downloads": 3525,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
-      "stars": 1,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "reddit-scraper",
-    "name": "Reddit Scraper",
-    "url": "https://clawhub.ai/skill/reddit-scraper",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-scraper/readme",
-    "description": "Read and search Reddit posts via web scraping of old.reddit.com. Use when Clawdbot needs to browse Reddit content - read posts from subreddits, search for topics, monitor specific communities. Read-only access with no posting or comments.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3502,
-      "installsAllTime": 17,
-      "installsCurrent": 17,
-      "stars": 3,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "gemini-image-gen",
-    "name": "Gemini Image Gen",
-    "url": "https://clawhub.ai/skill/gemini-image-gen",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gemini-image-gen/readme",
-    "description": "Generate and edit images via Google Gemini API. Supports Gemini native generation, Imagen 3, style presets, and batch generation with HTML gallery. Zero depe...",
-    "stats": {
-      "comments": 0,
-      "downloads": 3500,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 7,
-      "versions": 5
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "token-optimizer",
-    "name": "Tokenoptimizer",
-    "url": "https://clawhub.ai/skill/token-optimizer",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/token-optimizer/readme",
-    "description": "Reduce OpenClaw AI costs by 97%. Haiku model routing, free Ollama heartbeats, prompt caching, and budget controls. Go from $1,500/month to $50/month in 5 min...",
-    "stats": {
-      "comments": 7,
-      "downloads": 3484,
-      "installsAllTime": 23,
-      "installsCurrent": 21,
-      "stars": 13,
-      "versions": 19
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "myfeed",
-    "name": "My Life Feed",
-    "url": "https://clawhub.ai/skill/myfeed",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/myfeed/readme",
-    "description": "Manage MyFeed things and groups via the MyFeed REST API.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3478,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 8,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "stock-watcher",
-    "name": "Stock Watcher",
-    "url": "https://clawhub.ai/skill/stock-watcher",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stock-watcher/readme",
-    "description": "Manage and monitor a personal stock watchlist with support for adding, removing, listing stocks, and summarizing their recent performance using data from 10jqka.com.cn. Use when the user wants to track specific stocks, get performance summaries, or manage their watchlist.",
+    "slug": "excalidraw",
+    "name": "Excalidraw Diagram Generator",
+    "url": "https://clawhub.ai/skill/excalidraw",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/excalidraw/readme",
+    "description": "Generate hand-drawn style diagrams, flowcharts, and architecture diagrams as PNG images from Excalidraw JSON",
     "stats": {
       "comments": 1,
-      "downloads": 3447,
-      "installsAllTime": 11,
-      "installsCurrent": 11,
-      "stars": 5,
+      "downloads": 4142,
+      "installsAllTime": 14,
+      "installsCurrent": 12,
+      "stars": 6,
       "versions": 1
     },
     "source": "clawhub"
@@ -25271,27 +24983,379 @@
     "description": "Read and generate Word documents with correct structure, styles, and cross-platform compatibility.",
     "stats": {
       "comments": 0,
-      "downloads": 3446,
-      "installsAllTime": 14,
-      "installsCurrent": 14,
+      "downloads": 4034,
+      "installsAllTime": 18,
+      "installsCurrent": 18,
+      "stars": 8,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "lb-nextjs16-skill",
+    "name": "NextJS 16+ Complete Documentation",
+    "url": "https://clawhub.ai/skill/lb-nextjs16-skill",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/lb-nextjs16-skill/readme",
+    "description": "Complete Next.js 16 documentation in markdown format. Use when working with Next.js projects, building React applications, configuring routing, data fetching, rendering strategies, deployment, or migrating from other frameworks. Covers App Router, Pages Router, API routes, server components, server actions, caching, and all Next.js features.",
+    "stats": {
+      "comments": 0,
+      "downloads": 4005,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 0,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "openclaw-backup",
+    "name": "OpenClaw Backup",
+    "url": "https://clawhub.ai/skill/openclaw-backup",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-backup/readme",
+    "description": "Backup and restore OpenClaw data. Use when user asks to create backups, set up automatic backup schedules, restore from backup, or manage backup rotation. Handles ~/.openclaw directory archiving with proper exclusions.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3986,
+      "installsAllTime": 17,
+      "installsCurrent": 17,
+      "stars": 7,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "polymarket-agent",
+    "name": "Polymarket Agent",
+    "url": "https://clawhub.ai/skill/polymarket-agent",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/polymarket-agent/readme",
+    "description": "Autonomous prediction market agent - analyzes markets, researches news, and identifies trading opportunities",
+    "stats": {
+      "comments": 0,
+      "downloads": 3968,
+      "installsAllTime": 17,
+      "installsCurrent": 17,
+      "stars": 11,
+      "versions": 3
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "agent-browser-stagehand",
+    "name": "Agent Browser - Stagehand",
+    "url": "https://clawhub.ai/skill/agent-browser-stagehand",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-stagehand/readme",
+    "description": "Automate web browser interactions using natural language via CLI commands. Use when the user asks to browse websites, navigate web pages, extract data from websites, take screenshots, fill forms, click buttons, or interact with web applications.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3942,
+      "installsAllTime": 18,
+      "installsCurrent": 18,
+      "stars": 3,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "security-audit-toolkit",
+    "name": "Security Audit Toolkit",
+    "url": "https://clawhub.ai/skill/security-audit-toolkit",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/security-audit-toolkit/readme",
+    "description": "Audit codebases and infrastructure for security issues. Use when scanning dependencies for vulnerabilities, detecting hardcoded secrets, checking OWASP top 10 issues, verifying SSL/TLS, auditing file permissions, or reviewing code for injection and auth flaws.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3894,
+      "installsAllTime": 15,
+      "installsCurrent": 15,
+      "stars": 8,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "microsoft-to-do",
+    "name": "Microsoft To Do",
+    "url": "https://clawhub.ai/skill/microsoft-to-do",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/microsoft-to-do/readme",
+    "description": "Microsoft To Do API integration with managed OAuth. Manage task lists, tasks, checklist items, and linked resources.\nUse this skill when users want to create, read, update, or delete tasks and task lists in Microsoft To Do.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3884,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 5,
+      "versions": 3
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "stock-watcher",
+    "name": "Stock Watcher",
+    "url": "https://clawhub.ai/skill/stock-watcher",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/stock-watcher/readme",
+    "description": "Manage and monitor a personal stock watchlist with support for adding, removing, listing stocks, and summarizing their recent performance using data from 10jqka.com.cn. Use when the user wants to track specific stocks, get performance summaries, or manage their watchlist.",
+    "stats": {
+      "comments": 1,
+      "downloads": 3857,
+      "installsAllTime": 12,
+      "installsCurrent": 12,
       "stars": 5,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "torchmarket",
-    "name": "Torch Market",
-    "url": "https://clawhub.ai/skill/torchmarket",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/torchmarket/readme",
-    "description": "Torch Vault is a full-custody on-chain escrow for AI agents on Solana. The vault holds all assets -- SOL and tokens. The agent wallet is a disposable control...",
+    "slug": "self-improving",
+    "name": "Self-Improving Agent (With Self-Reflection)",
+    "url": "https://clawhub.ai/skill/self-improving",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/self-improving/readme",
+    "description": "Self-reflection + Self-criticism + learning from corrections. Agent evaluates its own work, catches mistakes, and improves permanently.",
     "stats": {
       "comments": 0,
-      "downloads": 3437,
+      "downloads": 3831,
+      "installsAllTime": 28,
+      "installsCurrent": 26,
+      "stars": 6,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "binance-pro",
+    "name": "Binance Pro",
+    "url": "https://clawhub.ai/skill/binance-pro",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/binance-pro/readme",
+    "description": "Complete Binance integration - world's largest crypto exchange. Trade spot, futures with up to 125x leverage, staking, and portfolio management. Use to check balances, open/close positions, set stop loss and take profit, check PnL, and any Binance operation.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3792,
+      "installsAllTime": 12,
+      "installsCurrent": 12,
+      "stars": 9,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "bilibili-hot-monitor",
+    "name": "B站 (bilibili) 热门视频监控",
+    "url": "https://clawhub.ai/skill/bilibili-hot-monitor",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/bilibili-hot-monitor/readme",
+    "description": "生成B站热门视频日报并发送邮件。触发词：B站热门、bilibili日报、视频日报、热门视频",
+    "stats": {
+      "comments": 0,
+      "downloads": 3781,
+      "installsAllTime": 1,
+      "installsCurrent": 1,
+      "stars": 6,
+      "versions": 22
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "market-environment-analysis",
+    "name": "Market Environment Analysis",
+    "url": "https://clawhub.ai/skill/market-environment-analysis",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/market-environment-analysis/readme",
+    "description": "Comprehensive market environment analysis and reporting tool. Analyzes global markets including US, European, Asian markets, forex, commodities, and economic indicators. Provides risk-on/risk-off assessment, sector analysis, and technical indicator interpretation. Triggers on keywords like market analysis, market environment, global markets, trading environment, market conditions, investment climate, market sentiment, forex analysis, stock market analysis, 相場環境, 市場分析, マーケット状況, 投資環境.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3759,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
+      "stars": 2,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "portfolio-watcher",
+    "name": "Portfolio Watcher",
+    "url": "https://clawhub.ai/skill/portfolio-watcher",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/portfolio-watcher/readme",
+    "description": "Monitor stock/crypto holdings, get price alerts, track portfolio performance",
+    "stats": {
+      "comments": 2,
+      "downloads": 3701,
+      "installsAllTime": 12,
+      "installsCurrent": 12,
+      "stars": 1,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "google-forms",
+    "name": "Google Forms",
+    "url": "https://clawhub.ai/skill/google-forms",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/google-forms/readme",
+    "description": "Google Forms API integration with managed OAuth. Create forms, add questions, and retrieve responses. Use this skill when users want to interact with Google Forms. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 3701,
       "installsAllTime": 0,
       "installsCurrent": 0,
+      "stars": 4,
+      "versions": 6
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "research-skill4455",
+    "name": "Research Skill4455",
+    "url": "https://clawhub.ai/skill/research-skill4455",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/research-skill4455/readme",
+    "description": "Provides a Magic 8-Ball response by selecting one of 20 classic answers, logging the question and answer with timestamp for secure sync.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3696,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 0,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "clawsend",
+    "name": "ClawSend",
+    "url": "https://clawhub.ai/skill/clawsend",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/clawsend/readme",
+    "description": "Agent-to-agent messaging with cryptographic signing and encryption. Send structured messages through the ClawHub relay.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3672,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
+      "stars": 4,
+      "versions": 22
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "agentwallet",
+    "name": "Vincent - Wallet",
+    "url": "https://clawhub.ai/skill/agentwallet",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agentwallet/readme",
+    "description": "The agent's wallet for EVM chain transactions and raw signing. Use this skill when users want to create a wallet, transfer tokens, swap on DEXs, interact wit...",
+    "stats": {
+      "comments": 0,
+      "downloads": 3655,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 2,
+      "versions": 45
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "reddit-scraper",
+    "name": "Reddit Scraper",
+    "url": "https://clawhub.ai/skill/reddit-scraper",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/reddit-scraper/readme",
+    "description": "Read and search Reddit posts via web scraping of old.reddit.com. Use when Clawdbot needs to browse Reddit content - read posts from subreddits, search for topics, monitor specific communities. Read-only access with no posting or comments.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3631,
+      "installsAllTime": 21,
+      "installsCurrent": 21,
       "stars": 3,
-      "versions": 61
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "token-optimizer",
+    "name": "Tokenoptimizer",
+    "url": "https://clawhub.ai/skill/token-optimizer",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/token-optimizer/readme",
+    "description": "Reduce OpenClaw AI costs by 97%. Haiku model routing, free Ollama heartbeats, prompt caching, and budget controls. Go from $1,500/month to $50/month in 5 min...",
+    "stats": {
+      "comments": 7,
+      "downloads": 3631,
+      "installsAllTime": 27,
+      "installsCurrent": 25,
+      "stars": 13,
+      "versions": 19
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "gemini-image-gen",
+    "name": "Gemini Image Gen",
+    "url": "https://clawhub.ai/skill/gemini-image-gen",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gemini-image-gen/readme",
+    "description": "Generate and edit images via Google Gemini API. Supports Gemini native generation, Imagen 3, style presets, and batch generation with HTML gallery. Zero depe...",
+    "stats": {
+      "comments": 0,
+      "downloads": 3623,
+      "installsAllTime": 3,
+      "installsCurrent": 3,
+      "stars": 7,
+      "versions": 5
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "ddg-web-search",
+    "name": "DuckDuckGo Web Search",
+    "url": "https://clawhub.ai/skill/ddg-web-search",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ddg-web-search/readme",
+    "description": "Web search without an API key using DuckDuckGo Lite via web_fetch. Use as a fallback when web_search fails with missing_brave_api_key error, or whenever you...",
+    "stats": {
+      "comments": 3,
+      "downloads": 3620,
+      "installsAllTime": 20,
+      "installsCurrent": 19,
+      "stars": 4,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "agent-browser-3",
+    "name": "Agent Browser",
+    "url": "https://clawhub.ai/skill/agent-browser-3",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/agent-browser-3/readme",
+    "description": "Automates browser interactions for web testing, form filling, screenshots, and data extraction. Use when the user needs to navigate websites, interact with web pages, fill forms, take screenshots, test web applications, or extract information from web pages.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3613,
+      "installsAllTime": 14,
+      "installsCurrent": 14,
+      "stars": 22,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "windows-ui-automation",
+    "name": "Windows UI Automation",
+    "url": "https://clawhub.ai/skill/windows-ui-automation",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/windows-ui-automation/readme",
+    "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3609,
+      "installsAllTime": 4,
+      "installsCurrent": 4,
+      "stars": 2,
+      "versions": 1
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "hubspot-api",
+    "name": "HubSpot",
+    "url": "https://clawhub.ai/skill/hubspot-api",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/hubspot-api/readme",
+    "description": "HubSpot CRM API integration with managed OAuth. Manage contacts, companies, deals, and associations. Use this skill when users want to create or update CRM records, search contacts, or sync data with HubSpot. For other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).",
+    "stats": {
+      "comments": 0,
+      "downloads": 3587,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 4,
+      "versions": 5
     },
     "source": "clawhub"
   },
@@ -25303,27 +25367,27 @@
     "description": "This skill should be used when analyzing HTML/CSS websites for SEO optimization, fixing SEO issues, generating SEO reports, or implementing SEO best practices. Use when the user requests SEO audits, optimization, meta tag improvements, schema markup implementation, sitemap generation, or general search engine optimization tasks.",
     "stats": {
       "comments": 0,
-      "downloads": 3434,
-      "installsAllTime": 11,
-      "installsCurrent": 10,
+      "downloads": 3580,
+      "installsAllTime": 12,
+      "installsCurrent": 11,
       "stars": 8,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "circle-wallet",
-    "name": "circle-wallet",
-    "url": "https://clawhub.ai/skill/circle-wallet",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/circle-wallet/readme",
-    "description": "USDC wallet capabilities for OpenClaw agents via Circle Developer-Controlled Wallets",
+    "slug": "coding",
+    "name": "Coding",
+    "url": "https://clawhub.ai/skill/coding",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/coding/readme",
+    "description": "Coding style memory that adapts to your preferences, conventions, and patterns for consistent coding.",
     "stats": {
       "comments": 0,
-      "downloads": 3407,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 4,
-      "versions": 18
+      "downloads": 3562,
+      "installsAllTime": 38,
+      "installsCurrent": 37,
+      "stars": 2,
+      "versions": 4
     },
     "source": "clawhub"
   },
@@ -25335,7 +25399,7 @@
     "description": "別駭我！基本安全檢測 — Security self-check for Clawdbot/Moltbot. Run a quick audit of your clawdbot.json to catch dangerous misconfigurations — exposed gateway, missing auth, open DM policy, weak tokens, loose file permissions. Auto-fix included. Invoke: \"run a security check\" or \"幫我做安全檢查\".",
     "stats": {
       "comments": 0,
-      "downloads": 3369,
+      "downloads": 3555,
       "installsAllTime": 18,
       "installsCurrent": 18,
       "stars": 23,
@@ -25344,32 +25408,16 @@
     "source": "clawhub"
   },
   {
-    "slug": "ticktick-api-skill",
-    "name": "TickTick",
-    "url": "https://clawhub.ai/skill/ticktick-api-skill",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ticktick-api-skill/readme",
-    "description": "TickTick API integration with managed OAuth. Manage tasks, projects, and task lists.\nUse this skill when users want to create, update, complete, or organize tasks and projects in TickTick.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "openclaw-auto-updater",
+    "name": "OpenClaw Auto‑Updater (Safe + Scheduled + Summary)",
+    "url": "https://clawhub.ai/skill/openclaw-auto-updater",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-auto-updater/readme",
+    "description": "Schedule automatic OpenClaw and skill updates with reliable cron templates, timezone-safe scheduling, and clear summary outputs. Use for hands-off maintenance, scheduled upgrades, and concise update reports.",
     "stats": {
       "comments": 0,
-      "downloads": 3359,
-      "installsAllTime": 2,
-      "installsCurrent": 2,
-      "stars": 4,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "crypto-self-learning",
-    "name": "Crypto Self-Learning",
-    "url": "https://clawhub.ai/skill/crypto-self-learning",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/crypto-self-learning/readme",
-    "description": "Self-learning system for crypto trading. Logs trades with full context (indicators, market conditions), analyzes patterns of wins/losses, and auto-updates trading rules. Use to log trades, analyze performance, identify what works/fails, and continuously improve trading accuracy.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3348,
-      "installsAllTime": 7,
-      "installsCurrent": 4,
+      "downloads": 3537,
+      "installsAllTime": 15,
+      "installsCurrent": 15,
       "stars": 8,
       "versions": 1
     },
@@ -25383,42 +25431,42 @@
     "description": "Reduce OpenClaw AI costs with model-aware optimization. Features dynamic compaction presets based on your model's context window, intelligent file compression, and robust model detection with fallback. Supports Claude, GPT-4, Gemini, DeepSeek, and more.",
     "stats": {
       "comments": 0,
-      "downloads": 3332,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
+      "downloads": 3520,
+      "installsAllTime": 14,
+      "installsCurrent": 14,
       "stars": 7,
       "versions": 7
     },
     "source": "clawhub"
   },
   {
-    "slug": "windows-ui-automation",
-    "name": "Windows UI Automation",
-    "url": "https://clawhub.ai/skill/windows-ui-automation",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/windows-ui-automation/readme",
-    "description": "Automate Windows GUI interactions (mouse, keyboard, windows) using PowerShell. Use when the user needs to simulate user input on the desktop, such as moving the cursor, clicking buttons, typing text in non-web apps, or managing window states.",
+    "slug": "torchmarket",
+    "name": "Torch Market",
+    "url": "https://clawhub.ai/skill/torchmarket",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/torchmarket/readme",
+    "description": "Torch Vault is a full-custody on-chain escrow for AI agents on Solana. The vault holds all assets -- SOL and tokens. The agent wallet is a disposable control...",
     "stats": {
       "comments": 0,
-      "downloads": 3330,
-      "installsAllTime": 3,
-      "installsCurrent": 3,
-      "stars": 2,
-      "versions": 1
+      "downloads": 3515,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 4,
+      "versions": 61
     },
     "source": "clawhub"
   },
   {
-    "slug": "openclaw-auto-updater",
-    "name": "OpenClaw Auto‑Updater (Safe + Scheduled + Summary)",
-    "url": "https://clawhub.ai/skill/openclaw-auto-updater",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-auto-updater/readme",
-    "description": "Schedule automatic OpenClaw and skill updates with reliable cron templates, timezone-safe scheduling, and clear summary outputs. Use for hands-off maintenance, scheduled upgrades, and concise update reports.",
+    "slug": "market-news-analyst",
+    "name": "Market News Analyst",
+    "url": "https://clawhub.ai/skill/market-news-analyst",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/market-news-analyst/readme",
+    "description": "This skill should be used when analyzing recent market-moving news events and their impact on equity markets and commodities. Use this skill when the user requests analysis of major financial news from the past 10 days, wants to understand market reactions to monetary policy decisions (FOMC, ECB, BOJ), needs assessment of geopolitical events' impact on commodities, or requires comprehensive review of earnings announcements from mega-cap stocks. The skill automatically collects news using WebSearch/WebFetch tools and produces impact-ranked analysis reports. All analysis thinking and output are conducted in English.",
     "stats": {
       "comments": 0,
-      "downloads": 3315,
-      "installsAllTime": 15,
-      "installsCurrent": 15,
-      "stars": 8,
+      "downloads": 3508,
+      "installsAllTime": 11,
+      "installsCurrent": 11,
+      "stars": 14,
       "versions": 1
     },
     "source": "clawhub"
@@ -25431,59 +25479,11 @@
     "description": "Analyze Polymarket prediction markets for trading edges. Pair Cost arbitrage, whale tracking, sentiment analysis, momentum signals, user profile tracking. No execution.",
     "stats": {
       "comments": 0,
-      "downloads": 3297,
+      "downloads": 3506,
       "installsAllTime": 13,
       "installsCurrent": 13,
       "stars": 10,
       "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "moltrade",
-    "name": "moltrade",
-    "url": "https://clawhub.ai/skill/moltrade",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/moltrade/readme",
-    "description": "Operate the Moltrade trading bot (config, backtest, test-mode runs, Nostr signal broadcast, exchange adapters, strategy integration) in OpenClaw.",
-    "stats": {
-      "comments": 1,
-      "downloads": 3264,
-      "installsAllTime": 9,
-      "installsCurrent": 7,
-      "stars": 3,
-      "versions": 8
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "remotion",
-    "name": "Remotion",
-    "url": "https://clawhub.ai/skill/remotion",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/remotion/readme",
-    "description": "Best practices for Remotion - Video creation in React",
-    "stats": {
-      "comments": 0,
-      "downloads": 3260,
-      "installsAllTime": 30,
-      "installsCurrent": 29,
-      "stars": 2,
-      "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "market-news-analyst",
-    "name": "Market News Analyst",
-    "url": "https://clawhub.ai/skill/market-news-analyst",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/market-news-analyst/readme",
-    "description": "This skill should be used when analyzing recent market-moving news events and their impact on equity markets and commodities. Use this skill when the user requests analysis of major financial news from the past 10 days, wants to understand market reactions to monetary policy decisions (FOMC, ECB, BOJ), needs assessment of geopolitical events' impact on commodities, or requires comprehensive review of earnings announcements from mega-cap stocks. The skill automatically collects news using WebSearch/WebFetch tools and produces impact-ranked analysis reports. All analysis thinking and output are conducted in English.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3240,
-      "installsAllTime": 9,
-      "installsCurrent": 9,
-      "stars": 12,
-      "versions": 1
     },
     "source": "clawhub"
   },
@@ -25495,91 +25495,43 @@
     "description": "Query Polymarket prediction markets. Use for questions about prediction markets, betting odds, market prices, event probabilities, or when user asks about Polymarket data.",
     "stats": {
       "comments": 0,
-      "downloads": 3235,
-      "installsAllTime": 17,
-      "installsCurrent": 17,
-      "stars": 11,
+      "downloads": 3476,
+      "installsAllTime": 19,
+      "installsCurrent": 19,
+      "stars": 12,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "react-expert",
-    "name": "React Expert",
-    "url": "https://clawhub.ai/skill/react-expert",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/react-expert/readme",
-    "description": "Use when building React 18+ applications requiring component architecture, hooks patterns, or state management. Invoke for Server Components, performance optimization, Suspense boundaries, React 19 features.",
+    "slug": "circle-wallet",
+    "name": "circle-wallet",
+    "url": "https://clawhub.ai/skill/circle-wallet",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/circle-wallet/readme",
+    "description": "USDC wallet capabilities for OpenClaw agents via Circle Developer-Controlled Wallets",
     "stats": {
       "comments": 0,
-      "downloads": 3210,
-      "installsAllTime": 12,
-      "installsCurrent": 12,
-      "stars": 0,
-      "versions": 1
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "zoho-books",
-    "name": "Zoho Books",
-    "url": "https://clawhub.ai/skill/zoho-books",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-books/readme",
-    "description": "Zoho Books API integration with managed OAuth. Manage invoices, contacts, bills, expenses, and other accounting data.\nUse this skill when users want to read, create, update, or delete invoices, contacts, bills, expenses, or other financial records in Zoho Books.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3204,
+      "downloads": 3468,
       "installsAllTime": 0,
       "installsCurrent": 0,
-      "stars": 2,
-      "versions": 3
+      "stars": 4,
+      "versions": 18
     },
     "source": "clawhub"
   },
   {
-    "slug": "gumroad",
-    "name": "Gumroad",
-    "url": "https://clawhub.ai/skill/gumroad",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gumroad/readme",
-    "description": "Gumroad API integration with managed OAuth. Access products, sales, subscribers, licenses, and webhooks for your digital storefront.\nUse this skill when users want to manage their Gumroad products, verify licenses, view sales data, or set up webhook notifications.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "crypto-self-learning",
+    "name": "Crypto Self-Learning",
+    "url": "https://clawhub.ai/skill/crypto-self-learning",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/crypto-self-learning/readme",
+    "description": "Self-learning system for crypto trading. Logs trades with full context (indicators, market conditions), analyzes patterns of wins/losses, and auto-updates trading rules. Use to log trades, analyze performance, identify what works/fails, and continuously improve trading accuracy.",
     "stats": {
       "comments": 0,
-      "downloads": 3155,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 0,
-      "versions": 4
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "openclaw-mcp-plugin",
-    "name": "Mcp Integration",
-    "url": "https://clawhub.ai/skill/openclaw-mcp-plugin",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-mcp-plugin/readme",
-    "description": "Use Model Context Protocol servers to access external tools and data sources. Enable AI agents to discover and execute tools from configured MCP servers (legal databases, APIs, database connectors, weather services, etc.).",
-    "stats": {
-      "comments": 1,
-      "downloads": 3097,
+      "downloads": 3439,
       "installsAllTime": 7,
-      "installsCurrent": 7,
-      "stars": 5,
-      "versions": 2
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "self-improving",
-    "name": "Self-Improving Agent (With Self-Reflection)",
-    "url": "https://clawhub.ai/skill/self-improving",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/self-improving/readme",
-    "description": "Self-reflection + Self-criticism + learning from corrections. Agent evaluates its own work, catches mistakes, and improves permanently.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3091,
-      "installsAllTime": 25,
-      "installsCurrent": 23,
-      "stars": 5,
-      "versions": 6
+      "installsCurrent": 4,
+      "stars": 8,
+      "versions": 1
     },
     "source": "clawhub"
   },
@@ -25591,91 +25543,171 @@
     "description": "Query and manage GitHub repositories - list repos, check CI status, create issues, search repos, and view recent activity.",
     "stats": {
       "comments": 0,
-      "downloads": 3090,
-      "installsAllTime": 11,
-      "installsCurrent": 10,
+      "downloads": 3436,
+      "installsAllTime": 16,
+      "installsCurrent": 15,
       "stars": 0,
       "versions": 7
     },
     "source": "clawhub"
   },
   {
-    "slug": "keap",
-    "name": "Keap",
-    "url": "https://clawhub.ai/skill/keap",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/keap/readme",
-    "description": "Keap API integration with managed OAuth. Manage contacts, companies, tags, tasks, orders, opportunities, and campaigns for CRM and marketing automation.\nUse this skill when users want to create and manage contacts, apply tags, track opportunities, or automate marketing workflows in Keap.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "remotion",
+    "name": "Remotion",
+    "url": "https://clawhub.ai/skill/remotion",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/remotion/readme",
+    "description": "Best practices for Remotion - Video creation in React",
     "stats": {
       "comments": 0,
-      "downloads": 3073,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
+      "downloads": 3431,
+      "installsAllTime": 34,
+      "installsCurrent": 32,
       "stars": 2,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "ticktick-api-skill",
+    "name": "TickTick",
+    "url": "https://clawhub.ai/skill/ticktick-api-skill",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/ticktick-api-skill/readme",
+    "description": "TickTick API integration with managed OAuth. Manage tasks, projects, and task lists.\nUse this skill when users want to create, update, complete, or organize tasks and projects in TickTick.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3414,
+      "installsAllTime": 2,
+      "installsCurrent": 2,
+      "stars": 4,
       "versions": 3
     },
     "source": "clawhub"
   },
   {
-    "slug": "twilio-api",
-    "name": "Twilio",
-    "url": "https://clawhub.ai/skill/twilio-api",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/twilio-api/readme",
-    "description": "Twilio API integration with managed OAuth. SMS, voice calls, phone numbers, and communications.\nUse this skill when users want to send SMS messages, make voice calls, manage phone numbers, or work with Twilio resources.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "react-expert",
+    "name": "React Expert",
+    "url": "https://clawhub.ai/skill/react-expert",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/react-expert/readme",
+    "description": "Use when building React 18+ applications requiring component architecture, hooks patterns, or state management. Invoke for Server Components, performance optimization, Suspense boundaries, React 19 features.",
     "stats": {
       "comments": 0,
-      "downloads": 3068,
-      "installsAllTime": 1,
-      "installsCurrent": 1,
-      "stars": 3,
-      "versions": 3
-    },
-    "source": "clawhub"
-  },
-  {
-    "slug": "research-skill4455",
-    "name": "Research Skill4455",
-    "url": "https://clawhub.ai/skill/research-skill4455",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/research-skill4455/readme",
-    "description": "Provides a Magic 8-Ball response by selecting one of 20 classic answers, logging the question and answer with timestamp for secure sync.",
-    "stats": {
-      "comments": 0,
-      "downloads": 3065,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
+      "downloads": 3406,
+      "installsAllTime": 13,
+      "installsCurrent": 13,
       "stars": 0,
       "versions": 1
     },
     "source": "clawhub"
   },
   {
-    "slug": "basecamp",
-    "name": "Basecamp",
-    "url": "https://clawhub.ai/skill/basecamp",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/basecamp/readme",
-    "description": "Basecamp API integration with managed OAuth. Manage projects, to-dos, messages, schedules, documents, and team collaboration.\nUse this skill when users want to create and manage projects, to-do lists, schedule events, or collaborate with teams in Basecamp.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "slug": "crypto-market-data",
+    "name": "Crypto Market Data Skill (No Key Required)",
+    "url": "https://clawhub.ai/skill/crypto-market-data",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/crypto-market-data/readme",
+    "description": "No API KEY needed for free tier. Professional-grade cryptocurrency and stock market data integration for real-time prices, company profiles, and global analytics. Powered by Node.js with zero external dependencies.",
     "stats": {
-      "comments": 0,
-      "downloads": 3063,
-      "installsAllTime": 0,
-      "installsCurrent": 0,
-      "stars": 4,
+      "comments": 1,
+      "downloads": 3388,
+      "installsAllTime": 14,
+      "installsCurrent": 14,
+      "stars": 2,
       "versions": 3
     },
     "source": "clawhub"
   },
   {
-    "slug": "garmin-health-analysis",
-    "name": "Garmin Health Analysis",
-    "url": "https://clawhub.ai/skill/garmin-health-analysis",
-    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/garmin-health-analysis/readme",
-    "description": "Talk to your Garmin data naturally - \"what was my fastest speed snowboarding?\", \"how did I sleep last night?\", \"what was my heart rate at 3pm?\". Access 20+ metrics (sleep stages, Body Battery, HRV, VO2 max, training readiness, body composition, SPO2), download FIT/GPX files for route analysis, query elevation/pace at any point, and generate interactive health dashboards. From casual \"show me this week's workouts\" to deep \"analyze my recovery vs training load\".",
+    "slug": "productivity",
+    "name": "Productivity",
+    "url": "https://clawhub.ai/skill/productivity",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/productivity/readme",
+    "description": "Plan, focus, and complete work with energy management, time blocking, and context-specific productivity systems.",
     "stats": {
       "comments": 0,
-      "downloads": 3063,
-      "installsAllTime": 7,
+      "downloads": 3365,
+      "installsAllTime": 13,
+      "installsCurrent": 12,
+      "stars": 3,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "moltrade",
+    "name": "moltrade",
+    "url": "https://clawhub.ai/skill/moltrade",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/moltrade/readme",
+    "description": "Operate the Moltrade trading bot (config, backtest, test-mode runs, Nostr signal broadcast, exchange adapters, strategy integration) in OpenClaw.",
+    "stats": {
+      "comments": 1,
+      "downloads": 3344,
+      "installsAllTime": 9,
       "installsCurrent": 7,
-      "stars": 4,
-      "versions": 11
+      "stars": 3,
+      "versions": 8
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "gemini-image-simple",
+    "name": "Gemini Image Simple",
+    "url": "https://clawhub.ai/skill/gemini-image-simple",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/gemini-image-simple/readme",
+    "description": "Generate and edit images with Gemini API using pure Python stdlib. Zero dependencies - works on locked-down environments where pip/uv aren't available.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3284,
+      "installsAllTime": 11,
+      "installsCurrent": 11,
+      "stars": 0,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "openclaw-mcp-plugin",
+    "name": "Mcp Integration",
+    "url": "https://clawhub.ai/skill/openclaw-mcp-plugin",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/openclaw-mcp-plugin/readme",
+    "description": "Use Model Context Protocol servers to access external tools and data sources. Enable AI agents to discover and execute tools from configured MCP servers (legal databases, APIs, database connectors, weather services, etc.).",
+    "stats": {
+      "comments": 1,
+      "downloads": 3279,
+      "installsAllTime": 8,
+      "installsCurrent": 8,
+      "stars": 5,
+      "versions": 2
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "docker",
+    "name": "Docker (Essentials + Advanced)",
+    "url": "https://clawhub.ai/skill/docker",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/docker/readme",
+    "description": "Build, secure, and deploy Docker containers with image optimization, networking, and production-ready patterns.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3274,
+      "installsAllTime": 17,
+      "installsCurrent": 16,
+      "stars": 2,
+      "versions": 4
+    },
+    "source": "clawhub"
+  },
+  {
+    "slug": "zoho-books",
+    "name": "Zoho Books",
+    "url": "https://clawhub.ai/skill/zoho-books",
+    "rawReadmeUrl": "https://clawhub.ai/api/v1/skills/zoho-books/readme",
+    "description": "Zoho Books API integration with managed OAuth. Manage invoices, contacts, bills, expenses, and other accounting data.\nUse this skill when users want to read, create, update, or delete invoices, contacts, bills, expenses, or other financial records in Zoho Books.\nFor other third party apps, use the api-gateway skill (https://clawhub.ai/byungkyu/api-gateway).\nRequires network access and valid Maton API key.",
+    "stats": {
+      "comments": 0,
+      "downloads": 3255,
+      "installsAllTime": 0,
+      "installsCurrent": 0,
+      "stars": 2,
+      "versions": 3
     },
     "source": "clawhub"
   }

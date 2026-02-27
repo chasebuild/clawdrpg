@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { X, ExternalLink, Loader2, AlertCircle, Cpu, Zap } from 'lucide-react';
+import { X, ExternalLink, Loader2, AlertCircle, Cpu } from 'lucide-react';
 
 interface Skill {
   slug: string;
@@ -34,7 +34,7 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
         if (!response.ok) throw new Error('Failed to fetch README');
         const text = await response.text();
         setContent(text);
-      } catch (err) {
+      } catch {
         setError('DATA_TRANSMISSION_ERROR: Documentation link severed.');
       } finally {
         setLoading(false);

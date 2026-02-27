@@ -159,7 +159,7 @@ program
         if (options.search) {
             const [awesomeResponse, clawhubResponse] = await Promise.all([
                 fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md').catch(() => null),
-                fetch(`https://clawhub.ai/api/v1/search?q=${encodeURIComponent(options.search)}&limit=20`).catch(() => null)
+                fetch(`https://clawhub.ai/api/v1/search?q=${encodeURIComponent(options.search)}&limit=20`).catch(() => null),
             ]);
             if (awesomeResponse?.ok) {
                 const text = await awesomeResponse.text();
@@ -167,14 +167,15 @@ program
                 let match;
                 while ((match = skillRegex.exec(text)) !== null) {
                     const [_, slug, description] = match;
-                    if (slug.includes(options.search) || description.toLowerCase().includes(options.search.toLowerCase())) {
+                    if (slug.includes(options.search) ||
+                        description.toLowerCase().includes(options.search.toLowerCase())) {
                         skills.push({ slug, description, source: 'awesome-openclaw-skills' });
                     }
                 }
             }
             if (clawhubResponse?.ok) {
                 const clawhubData = await clawhubResponse.json();
-                for (const item of (clawhubData.items || [])) {
+                for (const item of clawhubData.items || []) {
                     skills.push({ slug: item.slug, description: item.summary, source: 'clawhub' });
                 }
             }
@@ -196,7 +197,7 @@ program
             return;
         }
         console.log(picocolors_1.default.green(`Found ${skills.length} skills:\n`));
-        skills.slice(0, 50).forEach(skill => {
+        skills.slice(0, 50).forEach((skill) => {
             const labelName = picocolors_1.default.white('NAME: ');
             const skillName = picocolors_1.default.bold(picocolors_1.default.cyan(skill.slug.toUpperCase()));
             const labelDesc = picocolors_1.default.white(' DESCRIPTION: ');

@@ -9,3 +9,15 @@ coverage
 .env.local
 *.log
 .DS_Store
+**/.gitignore
+.husky/_/*
+.npmrc
+.nvmrc
+**/*.svg
+**/*.ico
+**/package-lock.json
+**/pnpm-lock.yaml
+.husky/pre-commit
+.prettierignore
+.prettierrc
+pnpm-workspace.yaml
