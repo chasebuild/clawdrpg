@@ -150,11 +150,9 @@ _Good luck, ${character.name}. Make it count._
 
       // 8. Handle Skills (Placeholder/Info)
       if (character.skills && character.skills.length > 0) {
-        console.log(pc.yellow(`
-Character requires the following skills:`));
+        console.log(pc.yellow(`\nCharacter requires the following skills:`));
         character.skills.forEach((s: string) => console.log(` - ${s}`));
-        console.log(pc.dim('
-Note: Skill installation via clawhub coming soon!'));
+        console.log(pc.dim(`\nNote: Skill installation via clawhub coming soon!`));
       }
 
       console.log(pc.green(`
@@ -164,6 +162,52 @@ Note: Skill installation via clawhub coming soon!'));
     } catch (err) {
       console.error(pc.red('An unexpected error occurred:'), err);
       process.exit(1);
+    }
+  });
+
+program
+  .command('skills')
+  .description('List available skills from the community')
+  .option('-s, --search <query>', 'Search for a skill')
+  .action(async (options) => {
+    console.log(pc.cyan('Fetching latest skills from community registry...'));
+    try {
+      const response = await fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md');
+      if (!response.ok) throw new Error('Failed to fetch skills list');
+      
+      const text = await response.text();
+      const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
+      let match;
+      const skills = [];
+
+      while ((match = skillRegex.exec(text)) !== null) {
+        const [_, slug, description] = match;
+        if (!options.search || slug.includes(options.search) || description.toLowerCase().includes(options.search.toLowerCase())) {
+          skills.push({ slug, description });
+        }
+      }
+
+      if (skills.length === 0) {
+        console.log(pc.yellow('No skills found.'));
+        return;
+      }
+
+      console.log(pc.green(`Found ${skills.length} skills:\n`));
+      
+      skills.slice(0, 50).forEach(skill => {
+        const labelName = pc.white('NAME: ');
+        const skillName = pc.bold(pc.cyan(skill.slug.toUpperCase()));
+        const labelDesc = pc.white(' DESCRIPTION: ');
+        const skillDesc = pc.dim(skill.description.toUpperCase());
+        console.log(`${labelName}${skillName}${labelDesc}${skillDesc}`);
+      });
+
+      if (skills.length > 50) {
+        console.log(pc.dim(`\n... and ${skills.length - 50} more. Use --search to filter.`));
+      }
+
+    } catch (err) {
+      console.error(pc.red('Error fetching skills:'), err);
     }
   });
 
