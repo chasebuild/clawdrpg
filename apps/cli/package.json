@@ -1,0 +1,25 @@
+{
+  "name": "clawdrpg",
+  "version": "0.1.0",
+  "description": "CLI to install ClawdRPG characters into OpenClaw workspaces",
+  "main": "dist/index.js",
+  "bin": {
+    "clawdrpg": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "fs-extra": "^11.3.0",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.13.5",
+    "typescript": "^5.7.3"
+  }
+}
