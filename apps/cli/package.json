@@ -1,5 +1,5 @@
 {
-  "name": "clawdrpg",
+  "name": "@clawdrpg/cli",
   "version": "0.1.0",
   "description": "CLI to install ClawdRPG characters into OpenClaw workspaces",
   "main": "dist/index.js",
@@ -8,7 +8,9 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "node dist/index.js"
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.1",

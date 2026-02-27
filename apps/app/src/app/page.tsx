@@ -46,7 +46,7 @@ export default function Home() {
           <Sparkles className="w-6 h-6 text-indigo-500" />
           <h1 className="text-xl font-bold">ClawdRPG</h1>
         </div>
-        <Link 
+        <Link
           href="/builder"
           className="flex items-center gap-2 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors"
         >
@@ -58,7 +58,9 @@ export default function Home() {
       <main className="flex-1 p-8">
         <div className="max-w-5xl mx-auto">
           <div className="mb-12 text-center sm:text-left">
-            <h2 className="text-4xl font-extrabold tracking-tight mb-4">Discover & Install Characters</h2>
+            <h2 className="text-4xl font-extrabold tracking-tight mb-4">
+              Discover & Install Characters
+            </h2>
             <p className="text-zinc-600 dark:text-zinc-400 text-lg">
               Explore custom personas with unique souls and skill sets for your OpenClaw workspace.
             </p>
@@ -66,8 +68,11 @@ export default function Home() {
 
           {loading ? (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3].map(i => (
-                <div key={i} className="h-64 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 animate-pulse" />
+              {[1, 2, 3].map((i) => (
+                <div
+                  key={i}
+                  className="h-64 rounded-xl bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 animate-pulse"
+                />
               ))}
             </div>
           ) : characters.length === 0 ? (
@@ -75,7 +80,7 @@ export default function Home() {
               <Package className="w-12 h-12 text-zinc-300 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">No characters found</h3>
               <p className="text-zinc-500 mb-6">Be the first to create a character for the RPG!</p>
-              <Link 
+              <Link
                 href="/builder"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-zinc-900 dark:bg-zinc-100 text-white dark:text-zinc-900 rounded-xl font-medium"
               >
@@ -84,17 +89,20 @@ export default function Home() {
             </div>
           ) : (
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {characters.map(char => (
-                <div 
-                  key={char.id} 
+              {characters.map((char) => (
+                <div
+                  key={char.id}
                   className="bg-white dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow group flex flex-col"
                 >
                   <div className="p-6 flex-1">
                     <div className="flex items-start justify-between mb-4">
                       <div className="text-5xl">{char.emoji}</div>
                       <div className="flex gap-1">
-                        {char.skills?.slice(0, 3).map(skill => (
-                          <span key={skill} className="px-2 py-1 bg-zinc-100 dark:bg-zinc-900 text-[10px] font-bold rounded uppercase tracking-wider text-zinc-500">
+                        {char.skills?.slice(0, 3).map((skill) => (
+                          <span
+                            key={skill}
+                            className="px-2 py-1 bg-zinc-100 dark:bg-zinc-900 text-[10px] font-bold rounded uppercase tracking-wider text-zinc-500"
+                          >
                             {skill}
                           </span>
                         ))}
@@ -114,7 +122,7 @@ export default function Home() {
                     <code className="text-[10px] bg-zinc-200 dark:bg-zinc-800 px-2 py-1 rounded">
                       /{char.slug}
                     </code>
-                    <button 
+                    <button
                       onClick={() => {
                         const cmd = `npx clawdrpg install ${char.slug}`;
                         navigator.clipboard.writeText(cmd);

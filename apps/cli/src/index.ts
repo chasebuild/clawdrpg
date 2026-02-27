@@ -23,18 +23,25 @@ program
   .option('-w, --workdir <path>', 'OpenClaw workspace directory', process.cwd())
   .action(async (slug, options) => {
     const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL || process.env.SUPABASE_URL;
-    const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY;
+    const supabaseAnonKey =
+      process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || process.env.SUPABASE_ANON_KEY;
 
     if (!supabaseUrl || !supabaseAnonKey) {
-      console.error(pc.red('Error: Supabase credentials missing. Set SUPABASE_URL and SUPABASE_ANON_KEY env vars.'));
+      console.error(
+        pc.red(
+          'Error: Supabase credentials missing. Set SUPABASE_URL and SUPABASE_ANON_KEY env vars.'
+        )
+      );
       process.exit(1);
     }
 
     const supabase = createClient(supabaseUrl, supabaseAnonKey);
     const workdir = path.resolve(options.workdir);
 
-    console.log(pc.cyan(`
-Looking for character: ${slug}...`));
+    console.log(
+      pc.cyan(`
+Looking for character: ${slug}...`)
+    );
 
     try {
       const { data: character, error } = await supabase
@@ -120,7 +127,10 @@ Add your camera names, SSH hosts, or preferred TTS voices here.
       console.log(pc.blue('✓ Created USER.md'));
 
       // 6. Write HEARTBEAT.md
-      await fs.writeFile(path.join(workdir, 'HEARTBEAT.md'), '# HEARTBEAT.md\n\n# Add periodic tasks here.\n');
+      await fs.writeFile(
+        path.join(workdir, 'HEARTBEAT.md'),
+        '# HEARTBEAT.md\n\n# Add periodic tasks here.\n'
+      );
       console.log(pc.blue('✓ Created HEARTBEAT.md'));
 
       // 7. Write BOOTSTRAP.md
@@ -155,10 +165,11 @@ _Good luck, ${character.name}. Make it count._
         console.log(pc.dim(`\nNote: Skill installation via clawhub coming soon!`));
       }
 
-      console.log(pc.green(`
+      console.log(
+        pc.green(`
 🚀 ${pc.bold(character.name)} has been installed successfully!
-`));
-      
+`)
+      );
     } catch (err) {
       console.error(pc.red('An unexpected error occurred:'), err);
       process.exit(1);
@@ -170,20 +181,53 @@ program
   .description('List available skills from the community')
   .option('-s, --search <query>', 'Search for a skill')
   .action(async (options) => {
-    console.log(pc.cyan('Fetching latest skills from community registry...'));
+    console.log(pc.cyan('Fetching latest skills from community registries...'));
     try {
-      const response = await fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md');
-      if (!response.ok) throw new Error('Failed to fetch skills list');
-      
-      const text = await response.text();
-      const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
-      let match;
       const skills = [];
 
-      while ((match = skillRegex.exec(text)) !== null) {
-        const [_, slug, description] = match;
-        if (!options.search || slug.includes(options.search) || description.toLowerCase().includes(options.search.toLowerCase())) {
-          skills.push({ slug, description });
+      if (options.search) {
+        const [awesomeResponse, clawhubResponse] = await Promise.all([
+          fetch(
+            'https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md'
+          ).catch(() => null),
+          fetch(
+            `https://clawhub.ai/api/v1/search?q=${encodeURIComponent(options.search)}&limit=20`
+          ).catch(() => null),
+        ]);
+
+        if (awesomeResponse?.ok) {
+          const text = await awesomeResponse.text();
+          const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
+          let match;
+          while ((match = skillRegex.exec(text)) !== null) {
+            const [_, slug, description] = match;
+            if (
+              slug.includes(options.search) ||
+              description.toLowerCase().includes(options.search.toLowerCase())
+            ) {
+              skills.push({ slug, description, source: 'awesome-openclaw-skills' });
+            }
+          }
+        }
+
+        if (clawhubResponse?.ok) {
+          const clawhubData = await clawhubResponse.json();
+          for (const item of clawhubData.items || []) {
+            skills.push({ slug: item.slug, description: item.summary, source: 'clawhub' });
+          }
+        }
+      } else {
+        const awesomeResponse = await fetch(
+          'https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md'
+        );
+        if (awesomeResponse?.ok) {
+          const text = await awesomeResponse.text();
+          const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
+          let match;
+          while ((match = skillRegex.exec(text)) !== null) {
+            const [_, slug, description] = match;
+            skills.push({ slug, description, source: 'awesome-openclaw-skills' });
+          }
         }
       }
 
@@ -193,19 +237,19 @@ program
       }
 
       console.log(pc.green(`Found ${skills.length} skills:\n`));
-      
-      skills.slice(0, 50).forEach(skill => {
+
+      skills.slice(0, 50).forEach((skill) => {
         const labelName = pc.white('NAME: ');
         const skillName = pc.bold(pc.cyan(skill.slug.toUpperCase()));
         const labelDesc = pc.white(' DESCRIPTION: ');
-        const skillDesc = pc.dim(skill.description.toUpperCase());
-        console.log(`${labelName}${skillName}${labelDesc}${skillDesc}`);
+        const skillDesc = pc.dim((skill.description || '').toUpperCase());
+        const sourceTag = skill.source === 'clawhub' ? pc.yellow(' [ClawHub]') : '';
+        console.log(`${labelName}${skillName}${sourceTag}${labelDesc}${skillDesc}`);
       });
 
       if (skills.length > 50) {
         console.log(pc.dim(`\n... and ${skills.length - 50} more. Use --search to filter.`));
       }
-
     } catch (err) {
       console.error(pc.red('Error fetching skills:'), err);
     }

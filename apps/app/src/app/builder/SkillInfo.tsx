@@ -52,7 +52,6 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
       </div>
 
       <div className="cyber-panel w-full max-w-5xl h-[85vh] rounded-sm shadow-[0_0_50px_rgba(0,0,0,0.5)] flex flex-col overflow-hidden animate-in zoom-in-95 duration-300 border-accent/20">
-        
         {/* Decorative corner accents */}
         <div className="absolute top-0 right-0 w-16 h-16 border-t-2 border-r-2 border-accent opacity-40 pointer-events-none" />
         <div className="absolute bottom-0 left-0 w-16 h-16 border-b-2 border-l-2 border-accent opacity-40 pointer-events-none" />
@@ -63,28 +62,30 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
               <Cpu className="w-6 h-6 text-accent animate-pulse" />
             </div>
             <div>
-              <h2 className="text-2xl font-black tracking-tighter text-white uppercase italic">{skill.name}</h2>
+              <h2 className="text-2xl font-black tracking-tighter text-white uppercase italic">
+                {skill.name}
+              </h2>
               <div className="flex items-center gap-2 text-[10px] font-mono text-accent/60 uppercase tracking-widest">
                 <span className="animate-pulse">●</span> System.Skill.Documentation_Loaded
               </div>
             </div>
           </div>
-          
+
           <div className="flex items-center gap-4">
-            <a 
-              href={skill.url} 
-              target="_blank" 
+            <a
+              href={skill.url}
+              target="_blank"
               rel="noopener noreferrer"
               className="p-2 border border-white/10 hover:border-accent/50 text-white/40 hover:text-accent transition-all rounded-sm"
               title="View Source"
             >
               <ExternalLink className="w-5 h-5" />
             </a>
-            
+
             <button
               onClick={() => onSelect(skill.slug)}
               className={`px-6 py-2 rounded-sm text-xs font-black transition-all border ${
-                isSelected 
+                isSelected
                   ? 'border-red-500 text-red-500 hover:bg-red-500 hover:text-black shadow-[0_0_15px_rgba(239,68,68,0.3)]'
                   : 'border-accent text-accent hover:bg-accent hover:text-black shadow-[0_0_15px_rgba(0,242,255,0.3)]'
               } uppercase italic tracking-widest`}
@@ -92,7 +93,7 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
               {isSelected ? 'Terminate Module' : 'Inject Module'}
             </button>
 
-            <button 
+            <button
               onClick={onClose}
               className="p-2 border border-white/10 hover:border-white/40 text-white/40 hover:text-white transition-all rounded-sm"
             >
@@ -117,7 +118,7 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
               <div className="flex flex-col items-center justify-center h-64 gap-6 text-red-500/80 font-mono italic uppercase tracking-widest">
                 <AlertCircle className="w-16 h-16 animate-bounce" />
                 <p className="text-center">{error}</p>
-                <button 
+                <button
                   onClick={() => window.location.reload()}
                   className="px-4 py-2 border border-red-500/30 hover:bg-red-500 hover:text-black transition-all"
                 >
@@ -126,14 +127,12 @@ export function SkillInfo({ skill, onClose, onSelect, isSelected }: SkillInfoPro
               </div>
             ) : (
               <article className="prose prose-invert prose-cyber max-w-none">
-                <ReactMarkdown remarkPlugins={[remarkGfm]}>
-                  {content}
-                </ReactMarkdown>
+                <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
               </article>
             )}
           </div>
         </div>
-        
+
         <footer className="px-8 py-3 border-t border-white/10 bg-black/60 flex justify-between items-center font-mono text-[9px] text-white/20 uppercase tracking-[0.2em]">
           <div>ClawdRPG // Skill.Registry.v2.8.4</div>
           <div className="flex gap-4">

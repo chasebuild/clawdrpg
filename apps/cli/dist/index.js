@@ -153,19 +153,42 @@ program
     .description('List available skills from the community')
     .option('-s, --search <query>', 'Search for a skill')
     .action(async (options) => {
-    console.log(picocolors_1.default.cyan('Fetching latest skills from community registry...'));
+    console.log(picocolors_1.default.cyan('Fetching latest skills from community registries...'));
     try {
-        const response = await fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md');
-        if (!response.ok)
-            throw new Error('Failed to fetch skills list');
-        const text = await response.text();
-        const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
-        let match;
         const skills = [];
-        while ((match = skillRegex.exec(text)) !== null) {
-            const [_, slug, description] = match;
-            if (!options.search || slug.includes(options.search) || description.toLowerCase().includes(options.search.toLowerCase())) {
-                skills.push({ slug, description });
+        if (options.search) {
+            const [awesomeResponse, clawhubResponse] = await Promise.all([
+                fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md').catch(() => null),
+                fetch(`https://clawhub.ai/api/v1/search?q=${encodeURIComponent(options.search)}&limit=20`).catch(() => null)
+            ]);
+            if (awesomeResponse?.ok) {
+                const text = await awesomeResponse.text();
+                const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
+                let match;
+                while ((match = skillRegex.exec(text)) !== null) {
+                    const [_, slug, description] = match;
+                    if (slug.includes(options.search) || description.toLowerCase().includes(options.search.toLowerCase())) {
+                        skills.push({ slug, description, source: 'awesome-openclaw-skills' });
+                    }
+                }
+            }
+            if (clawhubResponse?.ok) {
+                const clawhubData = await clawhubResponse.json();
+                for (const item of (clawhubData.items || [])) {
+                    skills.push({ slug: item.slug, description: item.summary, source: 'clawhub' });
+                }
+            }
+        }
+        else {
+            const awesomeResponse = await fetch('https://raw.githubusercontent.com/VoltAgent/awesome-openclaw-skills/main/README.md');
+            if (awesomeResponse?.ok) {
+                const text = await awesomeResponse.text();
+                const skillRegex = /^- \[(.*?)\]\(.*?\) - (.*)$/gm;
+                let match;
+                while ((match = skillRegex.exec(text)) !== null) {
+                    const [_, slug, description] = match;
+                    skills.push({ slug, description, source: 'awesome-openclaw-skills' });
+                }
             }
         }
         if (skills.length === 0) {
@@ -177,8 +200,9 @@ program
             const labelName = picocolors_1.default.white('NAME: ');
             const skillName = picocolors_1.default.bold(picocolors_1.default.cyan(skill.slug.toUpperCase()));
             const labelDesc = picocolors_1.default.white(' DESCRIPTION: ');
-            const skillDesc = picocolors_1.default.dim(skill.description.toUpperCase());
-            console.log(`${labelName}${skillName}${labelDesc}${skillDesc}`);
+            const skillDesc = picocolors_1.default.dim((skill.description || '').toUpperCase());
+            const sourceTag = skill.source === 'clawhub' ? picocolors_1.default.yellow(' [ClawHub]') : '';
+            console.log(`${labelName}${skillName}${sourceTag}${labelDesc}${skillDesc}`);
         });
         if (skills.length > 50) {
             console.log(picocolors_1.default.dim(`\n... and ${skills.length - 50} more. Use --search to filter.`));
